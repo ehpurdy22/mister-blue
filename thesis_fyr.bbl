@@ -80,36 +80,7 @@
       \field{isbn}{1904396933}
       \field{title}{{Artisan art : vernacular wall paintings in the Welsh Marches, 1550-1650}}
       \field{year}{2008}
-      \keyw{Art -- History -- Pictorial works,Mural painting}
-    \endentry
-    \entry{Harley}{article}{}
-      \name{author}{1}{}{%
-        {{hash=ac92a4c0059206ee4f49cc531a594cb0}{%
-           family={Harley},
-           familyi={H\bibinitperiod},
-           given={Rosamond\bibnamedelima D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{ac92a4c0059206ee4f49cc531a594cb0}
-      \strng{fullhash}{ac92a4c0059206ee4f49cc531a594cb0}
-      \strng{bibnamehash}{ac92a4c0059206ee4f49cc531a594cb0}
-      \strng{authorbibnamehash}{ac92a4c0059206ee4f49cc531a594cb0}
-      \strng{authornamehash}{ac92a4c0059206ee4f49cc531a594cb0}
-      \strng{authorfullhash}{ac92a4c0059206ee4f49cc531a594cb0}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Burlington Magazine}
-      \field{number}{785}
-      \field{title}{{The Interpretation of Colour Names}}
-      \field{volume}{110}
-      \field{year}{1968}
-      \field{pages}{460\bibrangedash 461}
-      \range{pages}{2}
-      \verb{file}
-      \verb :Users/ellenpurdy/Desktop/Azurite readings/Harley{\_}interpretation{\_}of{\_}color{\_}names.pdf:pdf
-      \endverb
+      \keyw{Art -- History -- Pictorial works,Art -- History -- Pictorial works; Mural painting,Mural painting}
     \endentry
     \entry{Kirkham_thesis}{article}{}
       \name{author}{1}{}{%
@@ -125,8 +96,8 @@
       \strng{authorbibnamehash}{b73ac891f7cb71a145201ef52ab7dc48}
       \strng{authornamehash}{b73ac891f7cb71a145201ef52ab7dc48}
       \strng{authorfullhash}{b73ac891f7cb71a145201ef52ab7dc48}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The University of East Anglia}
@@ -157,8 +128,8 @@
       \strng{authorbibnamehash}{4443fab6a50c4ea8f0cf242512f43362}
       \strng{authornamehash}{4443fab6a50c4ea8f0cf242512f43362}
       \strng{authorfullhash}{4443fab6a50c4ea8f0cf242512f43362}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Yale University Press}
@@ -166,6 +137,70 @@
       \field{title}{{A day at home in early modern England : material culture and domestic life, 1500-1700}}
       \field{year}{2017}
       \keyw{Households,Material culture -- England -- History}
+    \endentry
+    \entry{Giles}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b5ff0ee8615af3b1c0cec362435dfecd}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5ff0ee8615af3b1c0cec362435dfecd}
+      \strng{fullhash}{b5ff0ee8615af3b1c0cec362435dfecd}
+      \strng{bibnamehash}{b5ff0ee8615af3b1c0cec362435dfecd}
+      \strng{authorbibnamehash}{b5ff0ee8615af3b1c0cec362435dfecd}
+      \strng{authornamehash}{b5ff0ee8615af3b1c0cec362435dfecd}
+      \strng{authorfullhash}{b5ff0ee8615af3b1c0cec362435dfecd}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently, archaeologists have become increasingly interested in the study of visual relationships within past landscapes and buildings. However, our approaches and techniques of visual analysis often apply modern ways of thinking about sight and space to the pre-modern past, thereby ignoring important debates in other disciplines about the historicity of these concepts. Using the case studies of two schemes of medieval wall paintings in Pickering church (North Yorkshire) and the Guild Chapel, Stratford-upon-Avon, England, this paper argues that archaeologists should engage more critically with this issue. Throughout, the idea of a 'palimpsest' is used, both as a metaphor for the physical layers of plaster which overlie medieval wall paintings and as an analogy for the process of archaeological interpretation itself.}
+      \field{issn}{00438243}
+      \field{journaltitle}{World Archaeology}
+      \field{number}{1}
+      \field{title}{{Seeing and believing: Visuality and space in pre-modern England}}
+      \field{volume}{39}
+      \field{year}{2007}
+      \field{pages}{105\bibrangedash 121}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/00438240601136470
+      \endverb
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Seeing and believing visuality and space in pre modern England.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Thornton_book}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9e87b5a020bd0e94af6ef190bd6c72af}{%
+           family={Thornton},
+           familyi={T\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Weidenfeld {\&} Nicolson}%
+      }
+      \strng{namehash}{9e87b5a020bd0e94af6ef190bd6c72af}
+      \strng{fullhash}{9e87b5a020bd0e94af6ef190bd6c72af}
+      \strng{bibnamehash}{9e87b5a020bd0e94af6ef190bd6c72af}
+      \strng{authorbibnamehash}{9e87b5a020bd0e94af6ef190bd6c72af}
+      \strng{authornamehash}{9e87b5a020bd0e94af6ef190bd6c72af}
+      \strng{authorfullhash}{9e87b5a020bd0e94af6ef190bd6c72af}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Weidenfeld {\&} Nicolson}
+      \field{isbn}{029783228X}
+      \field{title}{{Form {\&} decoration : innovation in the decorative arts, 1470-1870}}
+      \field{year}{1998}
+      \keyw{Decorative arts -- Europe -- History,Design -- Eu}
     \endentry
     \entry{Benton1}{article}{}
       \name{author}{1}{}{%
@@ -182,8 +217,8 @@
       \strng{authornamehash}{07243a116f221443f49059102dfe1523}
       \strng{authorfullhash}{07243a116f221443f49059102dfe1523}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Transactions of the Essex Archaeological Society}
@@ -212,8 +247,8 @@
       \strng{authornamehash}{07243a116f221443f49059102dfe1523}
       \strng{authorfullhash}{07243a116f221443f49059102dfe1523}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Transactions of the Essex Archaeological Society}
@@ -228,37 +263,263 @@
       \endverb
       \keyw{Benton2}
     \endentry
-    \entry{Saunders}{article}{}
-      \name{author}{2}{}{%
-        {{hash=b17ad23e91c166513645b4e79205de5b}{%
-           family={Saunders},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=c8a081c0b5bfc2bde557bb8a0409eb6d}{%
-           family={Kirby},
-           familyi={K\bibinitperiod},
-           given={Jo},
-           giveni={J\bibinitperiod}}}%
+    \entry{Aru}{article}{}
+      \name{author}{3}{}{%
+        {{hash=877b0854f8283598009aa82d0c8f04d9}{%
+           family={Aru},
+           familyi={A\bibinitperiod},
+           given={Mariafrancesca},
+           giveni={M\bibinitperiod}}}%
+        {{hash=74b455ab345742729dfbf3ef4ad6b93f}{%
+           family={Burgio},
+           familyi={B\bibinitperiod},
+           given={Lucia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8afd8733e53fb4a315da7a62b95e1716}{%
+           family={Rumsey},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{4d4c6af3f4219075f58401400aa249a9}
-      \strng{fullhash}{4d4c6af3f4219075f58401400aa249a9}
-      \strng{bibnamehash}{4d4c6af3f4219075f58401400aa249a9}
-      \strng{authorbibnamehash}{4d4c6af3f4219075f58401400aa249a9}
-      \strng{authornamehash}{4d4c6af3f4219075f58401400aa249a9}
-      \strng{authorfullhash}{4d4c6af3f4219075f58401400aa249a9}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \strng{namehash}{80b3f62b8005dcbfc8b1db39d74d4f71}
+      \strng{fullhash}{ae6a3d5fe2ab85709cc7015cb2383079}
+      \strng{bibnamehash}{ae6a3d5fe2ab85709cc7015cb2383079}
+      \strng{authorbibnamehash}{ae6a3d5fe2ab85709cc7015cb2383079}
+      \strng{authornamehash}{80b3f62b8005dcbfc8b1db39d74d4f71}
+      \strng{authorfullhash}{ae6a3d5fe2ab85709cc7015cb2383079}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{National Gallery Technical Bulletin}
-      \field{title}{{The Effect of Relative Humidity on Artists' Pigments}}
-      \field{volume}{25}
-      \field{year}{2004}
-      \field{pages}{62\bibrangedash 72}
-      \range{pages}{11}
+      \field{abstract}{Nineteen natural specimens of azurite from European mining locations used in medieval times were analysed by Raman microscopy to investigate the existence and identity of any impurities. Malachite, hematite, goethite and other commonly occurring minerals such as cuprite, rutile and anatase were detected in a significant proportion of the specimens. Other minerals detected, albeit less frequently, include quartz, calcite, cerussite, orthoclase, beudantite and jarosite. These findings indicate that any iron oxides and malachite detected as minor impurities in azurite-containing museum objects should be taken as a consequence of the natural make-up of azurite specimens used for the pigments rather than a deliberate addition by the artist. Furthermore, the apparently sensible assumption that black and orange-brown impurities in azurite pigments are mainly copper oxides (cuprite and tenorite) is incorrect as these particles actually correspond to the iron oxides, goethite and hematite. It is possible with considerable further work that the concurrent association of the less common impurities within a single pigment sample might help to ascertain the provenance of an individual azurite-containing pigment by relating it to a known historic azurite source. If such a provenance study was carried out, we expect specific localization of an azurite pigment would only be possible if a source region or mine is known to contain azurite with particularly exotic or unusual composition.}
+      \field{issn}{10974555}
+      \field{journaltitle}{Journal of Raman Spectroscopy}
+      \field{number}{11-12}
+      \field{title}{{Mineral impurities in azurite pigments: Artistic or natural selection?}}
+      \field{volume}{45}
+      \field{year}{2014}
+      \field{pages}{1013\bibrangedash 1018}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1002/jrs.4469
+      \endverb
       \verb{file}
-      \verb :Users/ellenpurdy/Desktop/Azurite readings/Saunders{\_}The{\_}Effect{\_}of{\_}Relative{\_}Humidity{\_}on{\_}Artists{\_}Pigments.pdf:pdf
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Aru{\_}Mineral{\_}impurities{\_}in{\_}azurite{\_}pigments{\_}artistic{\_}or{\_}natural{\_}selection.pdf:pdf
+      \endverb
+      \keyw{Azurite,Impurities,Iron oxides,Raman}
+    \endentry
+    \entry{Smieska}{article}{}
+      \name{author}{4}{}{%
+        {{hash=23efa0c68d85228318b1d092265acecb}{%
+           family={Smieska},
+           familyi={S\bibinitperiod},
+           given={Louisa\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=485e6252704f915abaef36c9ca9fd82a}{%
+           family={Mullett},
+           familyi={M\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a03dfbc25a73434f709d5e58c8d95c15}{%
+           family={Ferri},
+           familyi={F\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=67bc0e65294582e5823a3275eda08ab8}{%
+           family={Woll},
+           familyi={W\bibinitperiod},
+           given={Arthur\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{c51e2f636dd905c2c9ca21ef22df97e0}
+      \strng{fullhash}{0f3aa32cf993d3e75b754fe008eee98f}
+      \strng{bibnamehash}{0f3aa32cf993d3e75b754fe008eee98f}
+      \strng{authorbibnamehash}{0f3aa32cf993d3e75b754fe008eee98f}
+      \strng{authornamehash}{c51e2f636dd905c2c9ca21ef22df97e0}
+      \strng{authorfullhash}{0f3aa32cf993d3e75b754fe008eee98f}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present trace-element and composition analysis of azurite pigments in six illuminated manuscript leaves, dating from the thirteenth to sixteenth century, using synchrotron-based, large-area x-ray fluorescence (SR-XRF) and diffraction (SR-XRD) mapping. SR-XRF mapping reveals several trace elements correlated with azurite, including arsenic, zirconium, antimony, barium, and bismuth, that appear in multiple manuscripts but were not always detected by point XRF. Within some manuscript leaves, variations in the concentration of trace elements associated with azurite coincide with distinct regions of the illuminations, suggesting systematic differences in azurite preparation or purification. Variations of the trace element concentrations in azurite are greater among different manuscript leaves than the variations within each individual leaf, suggesting the possibility that such impurities reflect distinct mineralogical/geologic sources. SR-XRD maps collected simultaneously with the SR-XRF maps confirm the identification of azurite regions and are consistent with impurities found in natural mineral sources of azurite. In general, our results suggest the feasibility of using azurite trace element analysis for provenance studies of illuminated manuscript fragments, and demonstrate the value of XRF mapping in non-destructive determination of trace element concentrations within a single pigment.}
+      \field{issn}{14320630}
+      \field{journaltitle}{Applied Physics A: Materials Science and Processing}
+      \field{number}{484}
+      \field{title}{{Trace elements in natural azurite pigments found in illuminated manuscript leaves investigated by synchrotron x-ray fluorescence and diffraction mapping}}
+      \field{volume}{123}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s00339-017-1093-0
+      \endverb
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Smieska2017{\_}Article{\_}TraceElementsInNaturalAzuriteP.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Seldes}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a0ca7674da0584ffc4906b9679d2678f}{%
+           family={Seldes},
+           familyi={S\bibinitperiod},
+           given={Alicia\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7eb027475fc81c9edf2b953dcabea7ca}{%
+           family={Burucua},
+           familyi={B\bibinitperiod},
+           given={Jose\bibnamedelima Emilio},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=04850731398b466fc23911eb281fbb71}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={Marta\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9a6a44a0101a05e6998e59dbd7fa95f7}{%
+           family={Abad},
+           familyi={A\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d11399ea590708dd91c4ef2f993416af}{%
+           family={Jauregui},
+           familyi={J\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e0d753b820a8e99edddda535e5446d61}{%
+           family={Siracusano},
+           familyi={S\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{226626ec837a5cfab9d8de5d220c66d4}
+      \strng{fullhash}{7dde718a1c943c9756f2b88decd25e7f}
+      \strng{bibnamehash}{7dde718a1c943c9756f2b88decd25e7f}
+      \strng{authorbibnamehash}{7dde718a1c943c9756f2b88decd25e7f}
+      \strng{authornamehash}{226626ec837a5cfab9d8de5d220c66d4}
+      \strng{authorfullhash}{7dde718a1c943c9756f2b88decd25e7f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Institute for Conservation}
+      \field{number}{2}
+      \field{title}{{Blue Pigments in South American Painting (1610-1780)}}
+      \field{volume}{38}
+      \field{year}{1999}
+      \field{pages}{100\bibrangedash 123}
+      \range{pages}{24}
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Seldes{\_}blue{\_}pigments{\_}south{\_}american{\_}painting.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Clarke}{article}{}
+      \name{author}{7}{}{%
+        {{hash=df83fc470980c6571d6159397dac2586}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={Matthew\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=93b42b3302f363de0d88aa7c6adedb25}{%
+           family={Gabrieli},
+           familyi={G\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+        {{hash=122be07045d5687f12761458aa3c9a1e}{%
+           family={Rowberg},
+           familyi={R\bibinitperiod},
+           given={Kathryn\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e39307d5003267ea5579f00dda8f0eff}{%
+           family={Hare},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=64311bbe72b520140916f76411f85825}{%
+           family={Ueda},
+           familyi={U\bibinitperiod},
+           given={Jiro},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba296956f71715f7efb7fdf171829406}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Blythe},
+           giveni={B\bibinitperiod}}}%
+        {{hash=37f072a30f2caeb2c44abc7832593a44}{%
+           family={Delaney},
+           familyi={D\bibinitperiod},
+           given={John\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{442c2aa9018e6874bc5c850589af2442}
+      \strng{fullhash}{f49a9d90437aec822a250137a55ae170}
+      \strng{bibnamehash}{f49a9d90437aec822a250137a55ae170}
+      \strng{authorbibnamehash}{f49a9d90437aec822a250137a55ae170}
+      \strng{authornamehash}{442c2aa9018e6874bc5c850589af2442}
+      \strng{authorfullhash}{f49a9d90437aec822a250137a55ae170}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scientific imaging of a large fragile work of art can be especially challenging, but especially rewarding to better grasp the complexity and changes that have occurred during its creation and lifetime. Here, noninvasive imaging, macro X-ray fluorescence (MAXRF) imaging spectroscopy and reflectance imaging spectroscopy, from the visible to the near infrared spectral range, are utilized to document a 14-m-long Japanese narrative handscroll, The Miraculous Interventions of Jizō Bosatsu. Due to the scroll's age and its handling during past use as a teaching tool, it has a number of conservation needs and shows evidence of past repairs. The scroll has extensive and severe creasing, breaks and tears, as well as unstable and powdering pigments. Microscopic observation and scientific analyses were performed both to document the current condition of the scroll and to better understand its long history. Combining RIS and MAXRF allowed for pigment characterization through elemental and molecular information. While RIS and MAXRF previously have been applied to the study of other painted materials, their application to East Asian paintings is rare. The obstacles of the scroll's length and fragile uneven surface were overcome by optimizing the setups of the two imaging systems. The MAXRF and RIS analyses, here focused on a select scene of the scroll, found certain original pigments common in early Japanese scroll paintings were used frequently, such as vermilion, iron-based compounds (yellow and red ochres), and copper-containing greens, while others occurred sparingly, such as azurite and red lead. A chloride-containing lead-based white pigment was employed. Faded organic colorants, notably indigo as well as an organic yellow/brown, could be detected but their vibrancy has been muted over the centuries. In the case of indigo, it may be visibly observed in some areas; however, analysis revealed its previously unknown presence mixed with a copper green in a select area. This focused study sets a foundation for further studies on both this object and other Asian works of art. [Figure not available: see fulltext.].}
+      \field{issn}{20507445}
+      \field{journaltitle}{Heritage Science}
+      \field{number}{1}
+      \field{title}{{Imaging spectroscopies to characterize a 13th century Japanese handscroll, The Miraculous Interventions of Jizō Bosatsu}}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1186/s40494-021-00497-1
+      \endverb
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Clarke{\_}Imaging-spectroscopies-to-characterize-a-13th-century-Japanese-handscroll-The-Miraculous-Interventions-of-Jiz-Bosatsu2021Heritage-ScienceOpen-Access.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s40494-021-00497-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s40494-021-00497-1
+      \endverb
+      \keyw{Conservation,FORS,Handscroll,Imaging,Japanese,Pigment,XRF}
+    \endentry
+    \entry{Price}{article}{}
+      \name{author}{1}{}{%
+        {{hash=889faf4386070478853a0a8e0df00eec}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{889faf4386070478853a0a8e0df00eec}
+      \strng{fullhash}{889faf4386070478853a0a8e0df00eec}
+      \strng{bibnamehash}{889faf4386070478853a0a8e0df00eec}
+      \strng{authorbibnamehash}{889faf4386070478853a0a8e0df00eec}
+      \strng{authornamehash}{889faf4386070478853a0a8e0df00eec}
+      \strng{authorfullhash}{889faf4386070478853a0a8e0df00eec}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The discovery of a technique for the particle separation and preparation of the blue mineral pigment azurite for use in an oil painting medium aids the compari-son of colors used in the Renais-sance with modern synthetic pig-ments. Chroma or chromatic intensity is presented as the key to understanding the language of color theory. This is supported by the first images ever of azurite cut by a focused ion beam (FIB) in or-der to compare unprepared and prepared particles of the mineral and thus demonstrate the impor-tance of the preparation process. The implications of a natural pig-ment renaissance for artists and restorers are assessed.}
+      \field{issn}{0024-094X}
+      \field{journaltitle}{Leonardo}
+      \field{number}{4}
+      \field{title}{{A Renaissance of Color: Particle Separation and Preparation of Azurite for Use in Oil Painting}}
+      \field{volume}{33}
+      \field{year}{2000}
+      \field{pages}{281\bibrangedash 288}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1162/002409400552667
+      \endverb
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Price{\_}particle{\_}separation{\_}preparation{\_}azurite{\_}oils.pdf:pdf
       \endverb
     \endentry
     \entry{Cardell}{article}{}
@@ -300,8 +561,8 @@
       \strng{authorbibnamehash}{3ff37c99597a53724fde07897e2ec920}
       \strng{authornamehash}{0b1ef5635d9fd77423d99717b3a5d07d}
       \strng{authorfullhash}{3ff37c99597a53724fde07897e2ec920}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper presents the first comprehensive study on the role played by pigment particle size in pigment-binder interactions, and thus susceptibility to aging of azurite-rabbit glue paint dosimeters upon accelerated UV-aging versus outdoor sunlight exposure. A complementary multi-analytical approach, including spectroscopic and surface analytical techniques, was applied to characterize commercial azurite pigments, as well as blank and aged dosimeters. Results show the crucial role played by azurite particle size on protein-copper complex formation, which governed physico-chemical properties of paints and their aging behavior under different light-aging conditions. On UV-aged dosimeters, finer particles promoted stronger binder structural changes, inducing more severe color changes ($\Delta$E = 6–17). Azurite size also controlled crack formation which was more severe as pigment grain increased due to greater accumulation of binder in inter-pore spaces. Outdoor exposure caused important binder loss (50–60{\%}) and initial transformation of azurite into malachite. Since analyzed pigment composition and particle size differed from manufacturer data, we recommend their characterization prior to use in conservation works and scientific studies. Based on these results, paints made of coarse azurite particles are preferable since they are less prone to color change. Moreover, a small addition of fine-grained pigments might reduce crack development upon aging.}
@@ -319,6 +580,370 @@
       \verb :Users/ellenpurdy/Desktop/Azurite readings/cardell{\_}pigmentsize{\_}dosimetry{\_}azurite{\_}tempera.pdf:pdf
       \endverb
       \keyw{Azurite pigments,Glue binder,Paint dosimeters,Particle size,Photo-aging tests}
+    \endentry
+    \entry{Kirby}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c8a081c0b5bfc2bde557bb8a0409eb6d}{%
+           family={Kirby},
+           familyi={K\bibinitperiod},
+           given={Jo},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8a081c0b5bfc2bde557bb8a0409eb6d}
+      \strng{fullhash}{c8a081c0b5bfc2bde557bb8a0409eb6d}
+      \strng{bibnamehash}{c8a081c0b5bfc2bde557bb8a0409eb6d}
+      \strng{authorbibnamehash}{c8a081c0b5bfc2bde557bb8a0409eb6d}
+      \strng{authornamehash}{c8a081c0b5bfc2bde557bb8a0409eb6d}
+      \strng{authorfullhash}{c8a081c0b5bfc2bde557bb8a0409eb6d}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{National Gallery Technical Bulletin}
+      \field{title}{{The Painter's Trade in the Seventeenth Century: Theory and Practice}}
+      \field{volume}{20}
+      \field{year}{1999}
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Historical Background from Andrea/kirby painters trade technical bulletin.pdf:pdf;:Users/ellenpurdy/Library/Application Support/Mendeley Desktop/Downloaded/Kirby - 1999 - The Painter's Trade in the Seventeenth Century Theory and Practice.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Naumova1994}{article}{}
+      \name{author}{2}{}{%
+        {{hash=adaabb6de5cc56d0d241426302aa82bf}{%
+           family={Naumova},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=eefa02b5e7bdc637c6721a3c383c666e}{%
+           family={Pisareva},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1022f73817187a35606cbdb7c29b40eb}
+      \strng{fullhash}{1022f73817187a35606cbdb7c29b40eb}
+      \strng{bibnamehash}{1022f73817187a35606cbdb7c29b40eb}
+      \strng{authorbibnamehash}{1022f73817187a35606cbdb7c29b40eb}
+      \strng{authornamehash}{1022f73817187a35606cbdb7c29b40eb}
+      \strng{authorfullhash}{1022f73817187a35606cbdb7c29b40eb}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Studies in Conservation}
+      \field{number}{4}
+      \field{title}{{A Note on the Use of Blue and Green Copper Compounds in Paintings}}
+      \field{volume}{39}
+      \field{year}{1994}
+      \field{pages}{277\bibrangedash 283}
+      \range{pages}{7}
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/naumova{\_}note{\_}on{\_}blue{\_}and{\_}green{\_}pigments.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Naumova1990}{article}{}
+      \name{author}{3}{}{%
+        {{hash=adaabb6de5cc56d0d241426302aa82bf}{%
+           family={Naumova},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=eefa02b5e7bdc637c6721a3c383c666e}{%
+           family={Pisareva},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ad3ef9da8b6a416f21d688035a12091e}{%
+           family={Nechiporenko},
+           familyi={N\bibinitperiod},
+           given={G.\bibnamedelimi O.},
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{50acc07a8cce8056134199e4a003d930}
+      \strng{fullhash}{3a14ecc6edf8e61cd3df9f0951679662}
+      \strng{bibnamehash}{3a14ecc6edf8e61cd3df9f0951679662}
+      \strng{authorbibnamehash}{3a14ecc6edf8e61cd3df9f0951679662}
+      \strng{authornamehash}{50acc07a8cce8056134199e4a003d930}
+      \strng{authorfullhash}{3a14ecc6edf8e61cd3df9f0951679662}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Studies in Conservation}
+      \field{number}{2}
+      \field{title}{{Green Copper Pigments of Old Russian Frescoes}}
+      \field{volume}{35}
+      \field{year}{1990}
+      \field{pages}{81\bibrangedash 88}
+      \range{pages}{8}
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Naumova{\_}Russian{\_}frescoes.pdf:pdf
+      \endverb
+    \endentry
+    \entry{mappae_clavicula}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f9459f99e51ce741cc7eb59f986349c6}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Cyril\bibnamedelima Stanley},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3582b9bc6201baf68587e7a38e844527}{%
+           family={Hawthorne},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{10ee28eb92aabe381c10ac51a4075335}
+      \strng{fullhash}{10ee28eb92aabe381c10ac51a4075335}
+      \strng{bibnamehash}{10ee28eb92aabe381c10ac51a4075335}
+      \strng{authorbibnamehash}{10ee28eb92aabe381c10ac51a4075335}
+      \strng{authornamehash}{10ee28eb92aabe381c10ac51a4075335}
+      \strng{authorfullhash}{10ee28eb92aabe381c10ac51a4075335}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Founded by Benjamin Franklin in 1743, the American Philosophical Society is located near Independence Hall in historic Philadelphia. The library's collection chiefly covers the history of the sciences, medicine, technology, and American anthropology. Among the library's eight million manuscripts are materials by Darwin, Jefferson, and Franklin, in addition to the original journals of Lewis and Clark. A library committed to supporting research within the scholarly and professional communities, the staff strives to carry out Franklin's mandate to foster the spread of “useful knowledge.” © 2008 Elsevier Science Inc.}
+      \field{issn}{00987913}
+      \field{journaltitle}{Transactions of the American Philosophical Society}
+      \field{number}{4}
+      \field{title}{{Mappae Clavicula: A Little Key to the World of Medieval Techniques}}
+      \field{volume}{64}
+      \field{year}{1974}
+      \field{pages}{1\bibrangedash 128}
+      \range{pages}{128}
+      \verb{doi}
+      \verb 10.1080/00987913.2008.10765167
+      \endverb
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/mappae{\_}clavicula.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Orna_literature}{article}{}
+      \name{author}{3}{}{%
+        {{hash=20c9bf557f398de77160a0f1562ec39d}{%
+           family={Orna},
+           familyi={O\bibinitperiod},
+           given={Mary\bibnamedelima Virginia},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=0dd768295cfe65fc5fc012401d382a17}{%
+           family={Low},
+           familyi={L\bibinitperiod},
+           given={Manfred\bibnamedelima J.D.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6cc0b086e8a9461e42509a8a369d4722}{%
+           family={Baer},
+           familyi={B\bibinitperiod},
+           given={Norbert\bibnamedelima S.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{12f226a12f3dbc3b559d95741160dbec}
+      \strng{fullhash}{8ba8113991eb3990feb8ba11f12ee329}
+      \strng{bibnamehash}{8ba8113991eb3990feb8ba11f12ee329}
+      \strng{authorbibnamehash}{8ba8113991eb3990feb8ba11f12ee329}
+      \strng{authornamehash}{12f226a12f3dbc3b559d95741160dbec}
+      \strng{authorfullhash}{8ba8113991eb3990feb8ba11f12ee329}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The technical literature of the Middle Ages abounds with recipes for the synthesis of blue pigments. The variations in these recipes are traced through manuscripts spanning seven centuries, and it is found that they fall into several categories depending upon the nature and the chemical form of the starting materials. In the case where the chief starting material is copper, there seems to be a chronological progression from the use of elemental copper to copper (II) to copper (II) plus complexing agents. © 1980 Maney Publishing.}
+      \field{issn}{20470584}
+      \field{journaltitle}{Studies in Conservation}
+      \field{number}{2}
+      \field{title}{{Synthetic Blue Pigments: Ninth to Sixteenth Centuries. I. Literature}}
+      \field{volume}{25}
+      \field{year}{1980}
+      \field{pages}{53\bibrangedash 63}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1179/sic.1980.25.2.53
+      \endverb
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Synthetic blue pigments ninth to sixteenth centuries I Literature.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Orna_silver}{article}{}
+      \name{author}{3}{}{%
+        {{hash=20c9bf557f398de77160a0f1562ec39d}{%
+           family={Orna},
+           familyi={O\bibinitperiod},
+           given={Mary\bibnamedelima Virginia},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=0dd768295cfe65fc5fc012401d382a17}{%
+           family={Low},
+           familyi={L\bibinitperiod},
+           given={Manfred\bibnamedelimb J.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ed225ea402c14c498541c3cbd62520de}{%
+           family={Julian},
+           familyi={J\bibinitperiod},
+           given={Maureen\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{12f226a12f3dbc3b559d95741160dbec}
+      \strng{fullhash}{7ba6ef20809d035753fe13ba9ea21de1}
+      \strng{bibnamehash}{7ba6ef20809d035753fe13ba9ea21de1}
+      \strng{authorbibnamehash}{7ba6ef20809d035753fe13ba9ea21de1}
+      \strng{authornamehash}{12f226a12f3dbc3b559d95741160dbec}
+      \strng{authorfullhash}{7ba6ef20809d035753fe13ba9ea21de1}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Studies in Conservation}
+      \field{number}{4}
+      \field{title}{{Synthetic Blue Pigments: Ninth to Sixteenth Centuries. II. 'Silver Blue'}}
+      \field{volume}{30}
+      \field{year}{1985}
+      \field{pages}{155\bibrangedash 160}
+      \range{pages}{6}
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/orna{\_}synthetic{\_}blue{\_}pigments.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Barnett}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c631e0e470bb7af6a97c9433bacbefac}{%
+           family={Barnett},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4e10dcdeb1032ff07fb3bee9229baab3}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=07afeee463ab1950c69ad3aaf6135277}{%
+           family={Pearce},
+           familyi={P\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf5c7a2cdc42b3b90dbfcafaa0d53695}
+      \strng{fullhash}{8e0e532686e324ae91735c0de280a166}
+      \strng{bibnamehash}{8e0e532686e324ae91735c0de280a166}
+      \strng{authorbibnamehash}{8e0e532686e324ae91735c0de280a166}
+      \strng{authornamehash}{bf5c7a2cdc42b3b90dbfcafaa0d53695}
+      \strng{authorfullhash}{8e0e532686e324ae91735c0de280a166}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Human beings have had an inherent urge to leave their mark in the form of works of art since prehistoric times. This has driven the quest for new and better pigments with which to make paints. This paper describes the origins and composition of earliest earth pigments used by primitive man to decorate the walls of caves through to the synthetic pigments developed in more recent times. Despite modern technology, the artist's palette remains a mixture of the pigments used by cave artists, natural pigments used in the middle ages, and modern organic compounds. © 2005 Elsevier Ltd. All rights reserved.}
+      \field{issn}{00303992}
+      \field{journaltitle}{Optics and Laser Technology}
+      \field{number}{4-6}
+      \field{title}{{Colour and art: A brief history of pigments}}
+      \field{volume}{38}
+      \field{year}{2006}
+      \field{pages}{445\bibrangedash 453}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.optlastec.2005.06.005
+      \endverb
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Barnett{\_}colour in art.pdf:pdf
+      \endverb
+      \keyw{Art history,Artists' colours,Painting,Pigments}
+    \endentry
+    \entry{MacTaggart}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7103aea9a666cf43ef0f9e5cb0fa36af}{%
+           family={MacTaggart},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6eaa5c885c4b87304b3b39ce2c7cacf7}{%
+           family={MacTaggart},
+           familyi={M\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3b8487d538263e26b0c4ad21841d742}
+      \strng{fullhash}{e3b8487d538263e26b0c4ad21841d742}
+      \strng{bibnamehash}{e3b8487d538263e26b0c4ad21841d742}
+      \strng{authorbibnamehash}{e3b8487d538263e26b0c4ad21841d742}
+      \strng{authornamehash}{e3b8487d538263e26b0c4ad21841d742}
+      \strng{authorfullhash}{e3b8487d538263e26b0c4ad21841d742}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Studies in Conservation}
+      \field{number}{1}
+      \field{title}{{Refiners' Verditers}}
+      \field{volume}{25}
+      \field{year}{1980}
+      \field{pages}{37\bibrangedash 45}
+      \range{pages}{9}
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/mactaggart{\_}refiners{\_}verditers.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Harley}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ac92a4c0059206ee4f49cc531a594cb0}{%
+           family={Harley},
+           familyi={H\bibinitperiod},
+           given={Rosamond\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac92a4c0059206ee4f49cc531a594cb0}
+      \strng{fullhash}{ac92a4c0059206ee4f49cc531a594cb0}
+      \strng{bibnamehash}{ac92a4c0059206ee4f49cc531a594cb0}
+      \strng{authorbibnamehash}{ac92a4c0059206ee4f49cc531a594cb0}
+      \strng{authornamehash}{ac92a4c0059206ee4f49cc531a594cb0}
+      \strng{authorfullhash}{ac92a4c0059206ee4f49cc531a594cb0}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Burlington Magazine}
+      \field{number}{785}
+      \field{title}{{The Interpretation of Colour Names}}
+      \field{volume}{110}
+      \field{year}{1968}
+      \field{pages}{460\bibrangedash 461}
+      \range{pages}{2}
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Harley{\_}interpretation{\_}of{\_}color{\_}names.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Saunders}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b17ad23e91c166513645b4e79205de5b}{%
+           family={Saunders},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c8a081c0b5bfc2bde557bb8a0409eb6d}{%
+           family={Kirby},
+           familyi={K\bibinitperiod},
+           given={Jo},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d4c6af3f4219075f58401400aa249a9}
+      \strng{fullhash}{4d4c6af3f4219075f58401400aa249a9}
+      \strng{bibnamehash}{4d4c6af3f4219075f58401400aa249a9}
+      \strng{authorbibnamehash}{4d4c6af3f4219075f58401400aa249a9}
+      \strng{authornamehash}{4d4c6af3f4219075f58401400aa249a9}
+      \strng{authorfullhash}{4d4c6af3f4219075f58401400aa249a9}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{National Gallery Technical Bulletin}
+      \field{title}{{The Effect of Relative Humidity on Artists' Pigments}}
+      \field{volume}{25}
+      \field{year}{2004}
+      \field{pages}{62\bibrangedash 72}
+      \range{pages}{11}
+      \verb{file}
+      \verb :Users/ellenpurdy/Desktop/Azurite readings/Saunders{\_}The{\_}Effect{\_}of{\_}Relative{\_}Humidity{\_}on{\_}Artists{\_}Pigments.pdf:pdf
+      \endverb
     \endentry
     \entry{Lluveras}{article}{}
       \name{author}{4}{}{%
@@ -349,8 +974,8 @@
       \strng{authorbibnamehash}{14c8898dfaca4875c005cfb086f6f26b}
       \strng{authornamehash}{bbd6809284f37314fcf940b97939ebdf}
       \strng{authorfullhash}{14c8898dfaca4875c005cfb086f6f26b}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This article illustrates the analysis by synchrotron micro-analytical techniques of an azurite painting presenting greenish chromatic degradation. The challenge of the experiments was to obtain the spatial distribution of the degradation products of azurite. Copper hydroxychlorides, carbonates and copper oxalates have been mapped by SR FTIR imaging of cross sections in transmission mode. To complement the information, Py/GC/MS and GC/MS techniques were applied in order to characterize the binding media and organic materials present as well as their degradation products. Results contribute to a better understanding of the decay of blue areas in ancient paintings not only from the particular point of view of azurite weathering, but also by adding information regarding the oxalates' formation and their distribution in painting samples. Synchrotron radiation demonstrates its capability for the mapping in painting cross sections. © Springer-Verlag 2010.}
@@ -410,8 +1035,8 @@
       \strng{authorbibnamehash}{fc0219d6c0b17cc64aed706c0ad643ec}
       \strng{authornamehash}{f66b427b1d24a0469ee8280160648e88}
       \strng{authorfullhash}{fc0219d6c0b17cc64aed706c0ad643ec}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Raman spectroscopy has advanced considerably in the last several years due to rapid developments in instrumentation and the availability of theoretical methods for accurate calculation of Raman spectra, thus enormously facilitating the interpretation of Raman data. This review is restricted to cover papers mainly published in the Journal of Raman Spectroscopy, which serve to give a fast overview of recent advances in this research field as well as to provide readers of this journal a quick introduction to the various subfields of Raman spectroscopy. It also reflects the current research interests of the Raman community. Similar reviews of highly active areas of Raman spectroscopy will appear in future issues of this journal. Copyright 2007 John Wiley {\&} Sons, Ltd.}
@@ -475,8 +1100,8 @@
       \strng{authorbibnamehash}{6663715ba38ab88bf5879ed86e7b8954}
       \strng{authornamehash}{06910d93cf31b515918ed14b0f69a1f6}
       \strng{authorfullhash}{6663715ba38ab88bf5879ed86e7b8954}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Studies in Conservation}
@@ -524,8 +1149,8 @@
       \strng{authorbibnamehash}{06d5f59585a82b1ed0ef03fbd134f14d}
       \strng{authornamehash}{4b8f9216bc58d7caa5a673235fffe81a}
       \strng{authorfullhash}{06d5f59585a82b1ed0ef03fbd134f14d}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Azurite [Cu2+3(CO3)2(OH)2] and malachite [Cu2+2(CO3)(OH)2] are both monoclinic hydroxy carbonates of copper. The Raman spectra of these two minerals were collected at both 298 and 77 K together with the single crystal Raman spectra of azurite at 298 K. The spectra of both azurite and malachite contain modes of three separate vibrational groups: OH, CO3 and Cu-O. Accordingly, for azurite the bands at 3453 and 3427 cm-1 have been assigned as the O-H stretching mode with the O-H bending modes found at 1035 and 952 cm-1. Malachite displays two hydroxyl stretching bands at 3474 and 3404 cm-1 at 298 K which shift to 3470 and 3400 cm-1 at 77 K while O-H out-of-plane bending modes are found at 1045 and 875 cm-1. For the carbonate group, bands are observed at 1090 cm-1 ($\nu$1), 837 and 817 cm-1 ($\nu$2) 1490 and 1415 cm-1 ($\nu$3) and 769 and 747 cm-1 ($\nu$4). The effect of collecting the spectra at 77 K results in considerable band narrowing. The Raman spectra of the single crystals of azurite show the orientation dependence of the vibrational modes. A mechanism for $\nu$2 splitting is proposed whereby vertical carbonate ions couple to form an in-phase and out-of-phase bending modes. Combination of these vibrational modes such as $\nu$1 + $\nu$3, $\nu$1 + $\nu$3, $\nu$1 + $\nu$4 and 2$\nu$2 are found at 2530, 2414, 1860, and 1670 cm-1, respectively. IR bands for the Cu-O stretching modes are observed at 495 and 400 cm-1, while Cu-O bending modes occur at 455 and 345 cm-1. Bands at 305 and 240 cm-1 are assigned to the O-Cu-OH bending modes. The Raman out-of-plane bending modes are found at 194 and 170 cm-1. For the carbonate group, infrared bands are observed at 1095 cm-1 ($\nu$1), 834 and 816 cm-1($\nu$2), 1430 and 1419 cm-1 ($\nu$3) and 764 and 739 cm-1 ($\nu$4). Combination of the CO3 vibrational modes $\nu$1 + $\nu$4 is observed at 1860 cm-1. IR bands for Cu-O stretching modes are observed at 580, 570 and 505 cm-1. Copyright © 2002 John Wiley {\&} Sons, Ltd.}
@@ -598,8 +1223,8 @@
       \strng{authorbibnamehash}{da6aac430b935899408fb1194581c61e}
       \strng{authornamehash}{7a28ed958941ec3d9b13d492592b593f}
       \strng{authorfullhash}{da6aac430b935899408fb1194581c61e}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The most commonly used blue pigments in medieval manuscripts are azurite and lapis-lazuli. The first one is a copper-based pigment; the coloring compound of the latter is lazurite, a sodium silico-aluminate in a sulfur matrix. Knowledge of the chemical composition of the materials is essential for the study of illuminated manuscripts. In this paper, micro-Raman and LIBS have been used for the study of azurite and lapis-lazuli, as well as different mixtures of these pigments applied to parchment to simulate an illuminated manuscript. The results of our work show the importance of using more than one technique for a good comprehension of a manuscript. In particular, the opportunity of combining elemental information (obtained from laser induced breakdown spectroscopy) and vibrational spectroscopy information (obtained from Raman) will be fully exploited. © 2001 Elsevier Science B.V. All rights reserved.}
@@ -619,282 +1244,810 @@
       \endverb
       \keyw{Cultural heritage,Illuminations,LIBS,Pigment analysis,Raman spectroscopy}
     \endentry
-    \entry{Naumova1994}{article}{}
-      \name{author}{2}{}{%
-        {{hash=adaabb6de5cc56d0d241426302aa82bf}{%
-           family={Naumova},
-           familyi={N\bibinitperiod},
-           given={M.\bibnamedelimi M.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=eefa02b5e7bdc637c6721a3c383c666e}{%
-           family={Pisareva},
-           familyi={P\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+    \entry{2018RS}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=d44db64ff3a74e37e52b6140d9bc877d}{%
+           family={{Do Nascimento}},
+           familyi={D\bibinitperiod},
+           given={Gustavo\bibnamedelima Morari},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{1022f73817187a35606cbdb7c29b40eb}
-      \strng{fullhash}{1022f73817187a35606cbdb7c29b40eb}
-      \strng{bibnamehash}{1022f73817187a35606cbdb7c29b40eb}
-      \strng{authorbibnamehash}{1022f73817187a35606cbdb7c29b40eb}
-      \strng{authornamehash}{1022f73817187a35606cbdb7c29b40eb}
-      \strng{authorfullhash}{1022f73817187a35606cbdb7c29b40eb}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
+      \list{publisher}{1}{%
+        {IntechOpen}%
+      }
+      \strng{namehash}{d44db64ff3a74e37e52b6140d9bc877d}
+      \strng{fullhash}{d44db64ff3a74e37e52b6140d9bc877d}
+      \strng{bibnamehash}{d44db64ff3a74e37e52b6140d9bc877d}
+      \strng{editorbibnamehash}{d44db64ff3a74e37e52b6140d9bc877d}
+      \strng{editornamehash}{d44db64ff3a74e37e52b6140d9bc877d}
+      \strng{editorfullhash}{d44db64ff3a74e37e52b6140d9bc877d}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Studies in Conservation}
-      \field{number}{4}
-      \field{title}{{A Note on the Use of Blue and Green Copper Compounds in Paintings}}
-      \field{volume}{39}
-      \field{year}{1994}
-      \field{pages}{277\bibrangedash 283}
-      \range{pages}{7}
-      \verb{file}
-      \verb :Users/ellenpurdy/Desktop/Azurite readings/naumova{\_}note{\_}on{\_}blue{\_}and{\_}green{\_}pigments.pdf:pdf
+      \field{isbn}{1-78923-001-2}
+      \field{title}{{Raman Spectroscopy}}
+      \field{year}{2018}
+    \endentry
+    \entry{horiba}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{HORIBA}
+      \field{title}{{The Theory of Raman Spectroscopy}}
+      \verb{urlraw}
+      \verb https://www.horiba.com/us/en/scientific/products/raman-spectroscopy/raman-academy/raman-tutorial/the-theory-of-raman-spectroscopy/
+      \endverb
+      \verb{url}
+      \verb https://www.horiba.com/us/en/scientific/products/raman-spectroscopy/raman-academy/raman-tutorial/the-theory-of-raman-spectroscopy/
       \endverb
     \endentry
-    \entry{Naumova1990}{article}{}
-      \name{author}{3}{}{%
-        {{hash=adaabb6de5cc56d0d241426302aa82bf}{%
-           family={Naumova},
-           familyi={N\bibinitperiod},
-           given={M.\bibnamedelimi M.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=eefa02b5e7bdc637c6721a3c383c666e}{%
-           family={Pisareva},
-           familyi={P\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=ad3ef9da8b6a416f21d688035a12091e}{%
-           family={Nechiporenko},
-           familyi={N\bibinitperiod},
-           given={G.\bibnamedelimi O.},
-           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+    \entry{matousek_tissue}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a0b241c601ee2ceb8c7cd42edda274f4}{%
+           family={Matousek},
+           familyi={M\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{50acc07a8cce8056134199e4a003d930}
-      \strng{fullhash}{3a14ecc6edf8e61cd3df9f0951679662}
-      \strng{bibnamehash}{3a14ecc6edf8e61cd3df9f0951679662}
-      \strng{authorbibnamehash}{3a14ecc6edf8e61cd3df9f0951679662}
-      \strng{authornamehash}{50acc07a8cce8056134199e4a003d930}
-      \strng{authorfullhash}{3a14ecc6edf8e61cd3df9f0951679662}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{a0b241c601ee2ceb8c7cd42edda274f4}
+      \strng{fullhash}{a0b241c601ee2ceb8c7cd42edda274f4}
+      \strng{bibnamehash}{a0b241c601ee2ceb8c7cd42edda274f4}
+      \strng{authorbibnamehash}{a0b241c601ee2ceb8c7cd42edda274f4}
+      \strng{authornamehash}{a0b241c601ee2ceb8c7cd42edda274f4}
+      \strng{authorfullhash}{a0b241c601ee2ceb8c7cd42edda274f4}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Studies in Conservation}
-      \field{number}{2}
-      \field{title}{{Green Copper Pigments of Old Russian Frescoes}}
-      \field{volume}{35}
-      \field{year}{1990}
-      \field{pages}{81\bibrangedash 88}
-      \range{pages}{8}
-      \verb{file}
-      \verb :Users/ellenpurdy/Desktop/Azurite readings/Naumova{\_}Russian{\_}frescoes.pdf:pdf
-      \endverb
-    \endentry
-    \entry{Orna_literature}{article}{}
-      \name{author}{3}{}{%
-        {{hash=20c9bf557f398de77160a0f1562ec39d}{%
-           family={Orna},
-           familyi={O\bibinitperiod},
-           given={Mary\bibnamedelima Virginia},
-           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=0dd768295cfe65fc5fc012401d382a17}{%
-           family={Low},
-           familyi={L\bibinitperiod},
-           given={Manfred\bibnamedelima J.D.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=6cc0b086e8a9461e42509a8a369d4722}{%
-           family={Baer},
-           familyi={B\bibinitperiod},
-           given={Norbert\bibnamedelima S.},
-           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{12f226a12f3dbc3b559d95741160dbec}
-      \strng{fullhash}{8ba8113991eb3990feb8ba11f12ee329}
-      \strng{bibnamehash}{8ba8113991eb3990feb8ba11f12ee329}
-      \strng{authorbibnamehash}{8ba8113991eb3990feb8ba11f12ee329}
-      \strng{authornamehash}{12f226a12f3dbc3b559d95741160dbec}
-      \strng{authorfullhash}{8ba8113991eb3990feb8ba11f12ee329}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The technical literature of the Middle Ages abounds with recipes for the synthesis of blue pigments. The variations in these recipes are traced through manuscripts spanning seven centuries, and it is found that they fall into several categories depending upon the nature and the chemical form of the starting materials. In the case where the chief starting material is copper, there seems to be a chronological progression from the use of elemental copper to copper (II) to copper (II) plus complexing agents. © 1980 Maney Publishing.}
-      \field{issn}{20470584}
-      \field{journaltitle}{Studies in Conservation}
-      \field{number}{2}
-      \field{title}{{Synthetic Blue Pigments: Ninth to Sixteenth Centuries. I. Literature}}
-      \field{volume}{25}
-      \field{year}{1980}
-      \field{pages}{53\bibrangedash 63}
-      \range{pages}{11}
+      \field{abstract}{This tutorial review examines emerging Raman spectroscopy techniques for deep non-invasive probing of diffusely scattering media such as living tissue and powders. As generic analytical tools{\{},\} the methods pave the way for a range of new applications for Raman spectroscopy{\{},\} including disease diagnosis{\{},\} non-invasive probing of pharmaceutical products in quality control and security screening.}
+      \field{journaltitle}{Chem. Soc. Rev.}
+      \field{number}{8}
+      \field{title}{{Deep non-invasive Raman spectroscopy of living tissue and powders}}
+      \field{volume}{36}
+      \field{year}{2007}
+      \field{pages}{1292\bibrangedash 1304}
+      \range{pages}{13}
       \verb{doi}
-      \verb 10.1179/sic.1980.25.2.53
+      \verb 10.1039/B614777C
       \endverb
-      \verb{file}
-      \verb :Users/ellenpurdy/Desktop/Azurite readings/Synthetic blue pigments ninth to sixteenth centuries I Literature.pdf:pdf
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/B614777C
       \endverb
-    \endentry
-    \entry{Orna_silver}{article}{}
-      \name{author}{3}{}{%
-        {{hash=20c9bf557f398de77160a0f1562ec39d}{%
-           family={Orna},
-           familyi={O\bibinitperiod},
-           given={Mary\bibnamedelima Virginia},
-           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=0dd768295cfe65fc5fc012401d382a17}{%
-           family={Low},
-           familyi={L\bibinitperiod},
-           given={Manfred\bibnamedelimb J.\bibnamedelimi D.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=ed225ea402c14c498541c3cbd62520de}{%
-           family={Julian},
-           familyi={J\bibinitperiod},
-           given={Maureen\bibnamedelima M.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{12f226a12f3dbc3b559d95741160dbec}
-      \strng{fullhash}{7ba6ef20809d035753fe13ba9ea21de1}
-      \strng{bibnamehash}{7ba6ef20809d035753fe13ba9ea21de1}
-      \strng{authorbibnamehash}{7ba6ef20809d035753fe13ba9ea21de1}
-      \strng{authornamehash}{12f226a12f3dbc3b559d95741160dbec}
-      \strng{authorfullhash}{7ba6ef20809d035753fe13ba9ea21de1}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Studies in Conservation}
-      \field{number}{4}
-      \field{title}{{Synthetic Blue Pigments: Ninth to Sixteenth Centuries. II. 'Silver Blue'}}
-      \field{volume}{30}
-      \field{year}{1985}
-      \field{pages}{155\bibrangedash 160}
-      \range{pages}{6}
-      \verb{file}
-      \verb :Users/ellenpurdy/Desktop/Azurite readings/orna{\_}synthetic{\_}blue{\_}pigments.pdf:pdf
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/B614777C
       \endverb
     \endentry
-    \entry{Seldes}{article}{}
-      \name{author}{6}{}{%
-        {{hash=a0ca7674da0584ffc4906b9679d2678f}{%
-           family={Seldes},
-           familyi={S\bibinitperiod},
-           given={Alicia\bibnamedelima M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=7eb027475fc81c9edf2b953dcabea7ca}{%
-           family={Burucua},
-           familyi={B\bibinitperiod},
-           given={Jose\bibnamedelima Emilio},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+    \entry{tomasini_raman}{article}{}
+      \name{author}{5}{}{%
+        {{hash=38b9c5ea33028dfec4c25d3aea779f46}{%
+           family={Tomasini},
+           familyi={T\bibinitperiod},
+           given={Eugenia\bibnamedelima P},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f5f2aa0640d0c00330baafae5c2f11f4}{%
+           family={Halac},
+           familyi={H\bibinitperiod},
+           given={Emilia\bibnamedelima B},
+           giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=5a051d734d8b761d5907b160ffe180ab}{%
+           family={Reinoso},
+           familyi={R\bibinitperiod},
+           given={Mar{Ã}­a},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9c0cd83c48aa1eaef82d150cb761d42b}{%
+           family={{Di Liscia}},
+           familyi={D\bibinitperiod},
+           given={Emiliano\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
         {{hash=04850731398b466fc23911eb281fbb71}{%
            family={Maier},
            familyi={M\bibinitperiod},
-           given={Marta\bibnamedelima S.},
+           given={Marta\bibnamedelima S},
            giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=9a6a44a0101a05e6998e59dbd7fa95f7}{%
-           family={Abad},
-           familyi={A\bibinitperiod},
-           given={Gonzalo},
-           giveni={G\bibinitperiod}}}%
-        {{hash=d11399ea590708dd91c4ef2f993416af}{%
-           family={Jauregui},
-           familyi={J\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e0d753b820a8e99edddda535e5446d61}{%
-           family={Siracusano},
-           familyi={S\bibinitperiod},
-           given={Gabriela},
-           giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{226626ec837a5cfab9d8de5d220c66d4}
-      \strng{fullhash}{7dde718a1c943c9756f2b88decd25e7f}
-      \strng{bibnamehash}{7dde718a1c943c9756f2b88decd25e7f}
-      \strng{authorbibnamehash}{7dde718a1c943c9756f2b88decd25e7f}
-      \strng{authornamehash}{226626ec837a5cfab9d8de5d220c66d4}
-      \strng{authorfullhash}{7dde718a1c943c9756f2b88decd25e7f}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \strng{namehash}{3079bc32491d6a36b6b728385c1da288}
+      \strng{fullhash}{f31b382716cbfde989729ebfce96f072}
+      \strng{bibnamehash}{f31b382716cbfde989729ebfce96f072}
+      \strng{authorbibnamehash}{f31b382716cbfde989729ebfce96f072}
+      \strng{authornamehash}{3079bc32491d6a36b6b728385c1da288}
+      \strng{authorfullhash}{f31b382716cbfde989729ebfce96f072}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of the American Institute for Conservation}
-      \field{number}{2}
-      \field{title}{{Blue Pigments in South American Painting (1610-1780)}}
-      \field{volume}{38}
+      \field{abstract}{Carbon-based black pigments are a wide group of dark-colored materials, which are classified according to the starting material used and their method of manufacture. Raman spectroscopy is an ideal technique for the characterization of carbonaceous matter: crystalline carbon materials present well-defined peaks, which can be easily assigned; amorphous carbon materials, on the other hand, show broad bands between 1300 and 1600 cm-1. The aim of this work was the discrimination between carbon-based pigments by micro-Raman spectroscopy. Five carbon-based pigments provided by Zecchi (lampblack, ivory black, bistre, bitumen, and graphite), two humic-earth materials [Van Dyck (Kremer) and Earth of Kassel (Zecchi)], and a commercial wood charcoal were studied. Raman spectra of all the samples showed the characteristic bands at approximately 1580 and 1350 cm-1; however, a clear difference in position, width, and relative intensity could be observed for most of the samples. The resulting analysis showed that micro-Raman spectroscopy allowed the discrimination of most of the reference pigments and allowed the identification of carbon-based black pigments in two South American colonial paintings dated from the early 18th century. Copyright {Â}© 2012 John Wiley {\&} Sons, Ltd.}
+      \field{journaltitle}{Journal of Raman Spectroscopy}
+      \field{number}{11}
+      \field{title}{{Micro-Raman spectroscopy of carbon-based black pigments}}
+      \field{volume}{43}
+      \field{year}{2012}
+      \field{pages}{1671\bibrangedash 1675}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1002/jrs.4159
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jrs.4159
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jrs.4159
+      \endverb
+      \keyw{art and archaeology,carbon-based pigments,colonial art,micro-Raman spectroscopy}
+    \endentry
+    \entry{inphotonics}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{InPhotonics}
+      \field{title}{{What is Raman spectroscopy?}}
       \field{year}{1999}
-      \field{pages}{100\bibrangedash 123}
-      \range{pages}{24}
-      \verb{file}
-      \verb :Users/ellenpurdy/Desktop/Azurite readings/Seldes{\_}blue{\_}pigments{\_}south{\_}american{\_}painting.pdf:pdf
+      \verb{urlraw}
+      \verb https://www.inphotonics.com/raman.htm
+      \endverb
+      \verb{url}
+      \verb https://www.inphotonics.com/raman.htm
       \endverb
     \endentry
-    \entry{Aru}{article}{}
-      \name{author}{3}{}{%
-        {{hash=877b0854f8283598009aa82d0c8f04d9}{%
-           family={Aru},
-           familyi={A\bibinitperiod},
-           given={Mariafrancesca},
-           giveni={M\bibinitperiod}}}%
-        {{hash=74b455ab345742729dfbf3ef4ad6b93f}{%
-           family={Burgio},
-           familyi={B\bibinitperiod},
-           given={Lucia},
-           giveni={L\bibinitperiod}}}%
-        {{hash=8afd8733e53fb4a315da7a62b95e1716}{%
-           family={Rumsey},
+    \entry{conti_2016}{article}{}
+      \name{author}{7}{}{%
+        {{hash=b5091254bccb1a492201eaf89f211ec3}{%
+           family={Conti},
+           familyi={C\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=38e59c65f79db6986d0963e021e13d5c}{%
+           family={Realini},
            familyi={R\bibinitperiod},
-           given={Michael\bibnamedelima S.},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b50f85f12038a7c434077cde8d19f0a5}{%
+           family={Botteon},
+           familyi={B\bibinitperiod},
+           given={Alessandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7e5d8192e979d5ac2be68815c3b4ce0d}{%
+           family={Colombo},
+           familyi={C\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=eb95f229c6687e2f15a686dd098189a8}{%
+           family={Noll},
+           familyi={N\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e06c15ef9cfc5d3e80f806da0d68ae18}{%
+           family={Elliott},
+           familyi={E\bibinitperiod},
+           given={Stephen\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a0b241c601ee2ceb8c7cd42edda274f4}{%
+           family={Matousek},
+           familyi={M\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{80b3f62b8005dcbfc8b1db39d74d4f71}
-      \strng{fullhash}{ae6a3d5fe2ab85709cc7015cb2383079}
-      \strng{bibnamehash}{ae6a3d5fe2ab85709cc7015cb2383079}
-      \strng{authorbibnamehash}{ae6a3d5fe2ab85709cc7015cb2383079}
-      \strng{authornamehash}{80b3f62b8005dcbfc8b1db39d74d4f71}
-      \strng{authorfullhash}{ae6a3d5fe2ab85709cc7015cb2383079}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \strng{namehash}{77265e10dfbbba85a769d50ba7110ee6}
+      \strng{fullhash}{821cc90941024a19b70f70a8e83604cb}
+      \strng{bibnamehash}{821cc90941024a19b70f70a8e83604cb}
+      \strng{authorbibnamehash}{821cc90941024a19b70f70a8e83604cb}
+      \strng{authornamehash}{77265e10dfbbba85a769d50ba7110ee6}
+      \strng{authorfullhash}{821cc90941024a19b70f70a8e83604cb}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Nineteen natural specimens of azurite from European mining locations used in medieval times were analysed by Raman microscopy to investigate the existence and identity of any impurities. Malachite, hematite, goethite and other commonly occurring minerals such as cuprite, rutile and anatase were detected in a significant proportion of the specimens. Other minerals detected, albeit less frequently, include quartz, calcite, cerussite, orthoclase, beudantite and jarosite. These findings indicate that any iron oxides and malachite detected as minor impurities in azurite-containing museum objects should be taken as a consequence of the natural make-up of azurite specimens used for the pigments rather than a deliberate addition by the artist. Furthermore, the apparently sensible assumption that black and orange-brown impurities in azurite pigments are mainly copper oxides (cuprite and tenorite) is incorrect as these particles actually correspond to the iron oxides, goethite and hematite. It is possible with considerable further work that the concurrent association of the less common impurities within a single pigment sample might help to ascertain the provenance of an individual azurite-containing pigment by relating it to a known historic azurite source. If such a provenance study was carried out, we expect specific localization of an azurite pigment would only be possible if a source region or mine is known to contain azurite with particularly exotic or unusual composition.}
-      \field{issn}{10974555}
-      \field{journaltitle}{Journal of Raman Spectroscopy}
-      \field{number}{11-12}
-      \field{title}{{Mineral impurities in azurite pigments: Artistic or natural selection?}}
-      \field{volume}{45}
-      \field{year}{2014}
-      \field{pages}{1013\bibrangedash 1018}
+      \field{abstract}{A recently developed micrometer-scale spatially offset Raman spectroscopy ({Î}{Œ}-SORS) method provides a new analytical capability for investigating non-destructively the chemical composition of sub-surface, micrometer-scale thickness, diffusely scattering layers at depths beyond the reach of conventional confocal Raman microscopy. Here, we demonstrate experimentally, for the first time, the capability of {Î}{Œ}-SORS to determine whether two detected chemical components originate from two separate layers or whether the two components are mixed together in a single layer. Such information is important in a number of areas, including conservation of cultural heritage objects, and is not available, for highly turbid media, from conventional Raman microscopy, where axial (confocal) scanning is not possible due to an inability to facilitate direct imaging within the highly scattering sample. This application constitutes an additional capability for {Î}{Œ}-SORS in addition to its basic capacity to determine the overall chemical make-up of layers in a turbid system.}
+      \field{annotation}{PMID: 26767641}
+      \field{journaltitle}{Applied Spectroscopy}
+      \field{number}{1}
+      \field{title}{{Analytical Capability of Defocused µ-SORS in the Chemical Interrogation of Thin Turbid Painted Layers}}
+      \field{volume}{70}
+      \field{year}{2016}
+      \field{pages}{156\bibrangedash 161}
       \range{pages}{6}
       \verb{doi}
-      \verb 10.1002/jrs.4469
+      \verb 10.1177/0003702815615345
       \endverb
-      \verb{file}
-      \verb :Users/ellenpurdy/Desktop/Azurite readings/Aru{\_}Mineral{\_}impurities{\_}in{\_}azurite{\_}pigments{\_}artistic{\_}or{\_}natural{\_}selection.pdf:pdf
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0003702815615345
       \endverb
-      \keyw{Azurite,Impurities,Iron oxides,Raman}
+      \verb{url}
+      \verb https://doi.org/10.1177/0003702815615345
+      \endverb
+    \endentry
+    \entry{pallipurath2014}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1964385daf1fd13ba1b1b0fc0f9dbe46}{%
+           family={Pallipurath},
+           familyi={P\bibinitperiod},
+           given={Anuradha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=256696c889a8be1f6808f40f0c52c5cc}{%
+           family={V$\backslash$H\bibnamedelima of{é}ly},
+           familyi={V\bibinitperiod\bibinitdelim o\bibinitperiod},
+           given={RF{ó}za\bibnamedelimb Vill$\backslash$H\bibnamedelima o},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim o\bibinitperiod}}}%
+        {{hash=e7ccac2581a5df0382f716707c2c0747}{%
+           family={Skelton},
+           familyi={S\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=53caf4b015c256f9149b90363684a0e8}{%
+           family={Ricciardi},
+           familyi={R\bibinitperiod},
+           given={Paola},
+           giveni={P\bibinitperiod}}}%
+        {{hash=012823c8599a048f5240b27769f536d6}{%
+           family={Bucklow},
+           familyi={B\bibinitperiod},
+           given={Spike},
+           giveni={S\bibinitperiod}}}%
+        {{hash=776ff3f9470c5993e80a0d506208bf30}{%
+           family={Elliott},
+           familyi={E\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{300d8ecfa1fedc6def53fc058e92a095}
+      \strng{fullhash}{d0e8cccd382b5f251f4bc85c80900989}
+      \strng{bibnamehash}{d0e8cccd382b5f251f4bc85c80900989}
+      \strng{authorbibnamehash}{d0e8cccd382b5f251f4bc85c80900989}
+      \strng{authornamehash}{300d8ecfa1fedc6def53fc058e92a095}
+      \strng{authorfullhash}{d0e8cccd382b5f251f4bc85c80900989}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Raman Spectroscopy}
+      \field{number}{11-12}
+      \field{title}{{Estimating the concentrations of pigments and binders in lead-based paints using FT-Raman spectroscopy and principal component analysis}}
+      \field{volume}{45}
+      \field{year}{2014}
+      \field{pages}{1272\bibrangedash 1278}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/jrs.4525
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jrs.4525
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jrs.4525
+      \endverb
+      \keyw{FT-Raman spectroscopy,fibre optic reflectance spectroscopy,lead-based paints,pigment binder concentration,principal component analysis}
+    \endentry
+    \entry{pallipurath2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=1964385daf1fd13ba1b1b0fc0f9dbe46}{%
+           family={Pallipurath},
+           familyi={P\bibinitperiod},
+           given={Anuradha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e7ccac2581a5df0382f716707c2c0747}{%
+           family={Skelton},
+           familyi={S\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=53caf4b015c256f9149b90363684a0e8}{%
+           family={Ricciardi},
+           familyi={R\bibinitperiod},
+           given={Paola},
+           giveni={P\bibinitperiod}}}%
+        {{hash=012823c8599a048f5240b27769f536d6}{%
+           family={Bucklow},
+           familyi={B\bibinitperiod},
+           given={Spike},
+           giveni={S\bibinitperiod}}}%
+        {{hash=776ff3f9470c5993e80a0d506208bf30}{%
+           family={Elliott},
+           familyi={E\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{300d8ecfa1fedc6def53fc058e92a095}
+      \strng{fullhash}{b6ecfa4b69411803c9020f6e8f5ed2b4}
+      \strng{bibnamehash}{b6ecfa4b69411803c9020f6e8f5ed2b4}
+      \strng{authorbibnamehash}{b6ecfa4b69411803c9020f6e8f5ed2b4}
+      \strng{authornamehash}{300d8ecfa1fedc6def53fc058e92a095}
+      \strng{authorfullhash}{b6ecfa4b69411803c9020f6e8f5ed2b4}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Raman Spectroscopy}
+      \field{number}{6}
+      \field{title}{{Multivariate analysis of combined Raman and fibre-optic reflectance spectra for the identification of binder materials in simulated medieval paints}}
+      \field{volume}{44}
+      \field{year}{2013}
+      \field{pages}{866\bibrangedash 874}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1002/jrs.4291
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jrs.4291
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jrs.4291
+      \endverb
+      \keyw{FORS,FT-Raman,PCA,non-invasive analysis,paint binder materials}
+    \endentry
+    \entry{lazzari}{article}{}
+      \name{author}{2}{}{%
+        {{hash=94f63931c24b81873385b4905106e9b1}{%
+           family={Lazzari},
+           familyi={L\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a939fd279a78358a8c5904f75be3075d}{%
+           family={Chiantore},
+           familyi={C\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{11668edadddaa077fa52e00b36dd3a44}
+      \strng{fullhash}{11668edadddaa077fa52e00b36dd3a44}
+      \strng{bibnamehash}{11668edadddaa077fa52e00b36dd3a44}
+      \strng{authorbibnamehash}{11668edadddaa077fa52e00b36dd3a44}
+      \strng{authornamehash}{11668edadddaa077fa52e00b36dd3a44}
+      \strng{authorfullhash}{11668edadddaa077fa52e00b36dd3a44}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0141-3910}
+      \field{journaltitle}{Polymer Degradation and Stability}
+      \field{number}{2}
+      \field{title}{{Drying and oxidative degradation of linseed oil}}
+      \field{volume}{65}
+      \field{year}{1999}
+      \field{pages}{303\bibrangedash 313}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0141-3910(99)00020-8
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0141391099000208
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0141391099000208
+      \endverb
+      \keyw{Drying,Hardening,Linseed oil,Oxidative degradation,Triglycerides}
+    \endentry
+    \entry{vandenabeele}{article}{}
+      \name{author}{6}{}{%
+        {{hash=17e43444165d85f1b58b717bb771280c}{%
+           family={Vandenabeele},
+           familyi={V\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9cbe22c71d3bb2b9a1ce0d51829cc923}{%
+           family={Wehling},
+           familyi={W\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f6094acf1cc658b1c3444fe16990d327}{%
+           family={Moens},
+           familyi={M\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1f01a71250bb5a52d8e6ca9730b504cb}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3dbe4268ce345c200a3a31b3d4ea28ad}{%
+           family={Reu},
+           familyi={R\bibinitperiod},
+           given={M\bibnamedelima De},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=0ddb7769dc8c0f52cf67644a30b2c65c}{%
+           family={Hooydonk},
+           familyi={H\bibinitperiod},
+           given={G\bibnamedelima Van},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b8be3f6a9484e1bcf79e27fd818f42d}
+      \strng{fullhash}{f95622664c54b293ceafb0b734ea4fc7}
+      \strng{bibnamehash}{f95622664c54b293ceafb0b734ea4fc7}
+      \strng{authorbibnamehash}{f95622664c54b293ceafb0b734ea4fc7}
+      \strng{authornamehash}{9b8be3f6a9484e1bcf79e27fd818f42d}
+      \strng{authorfullhash}{f95622664c54b293ceafb0b734ea4fc7}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Micro-Raman spectroscopy (MRS) allows the identification of binding media and varnishes in paintings. This non-destructive micro-analytical method has been used for the recording of spectra (1800-200 cm-1) of different types of proteinaceous (albumin, casein, gelatin, isinglass, fish glue), polysaccharide (starch, gum arabic, tragacanth, cherry gum), fatty acid (beeswax, linseed oil, poppy-seed oil, walnut oil, sunflower oil) and resinous media (shellac, dammar, colophony, sandarac, copal, elemi, Venice turpentine, Strasbourg turpentine, amber, mastic, dragon's blood, gamboge). The Raman spectra can be used as a reference for fingerprinting unknown binders and varnishes. This is demonstrated by the identification of the binder and pigment in a sample of a medieval illuminated manuscript.}
+      \field{issn}{0003-2670}
+      \field{journaltitle}{Analytica Chimica Acta}
+      \field{number}{1}
+      \field{title}{{Analysis with micro-Raman spectroscopy of natural organic binding media and varnishes used in art}}
+      \field{volume}{407}
+      \field{year}{2000}
+      \field{pages}{261\bibrangedash 274}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0003-2670(99)00827-2
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0003267099008272
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0003267099008272
+      \endverb
+      \keyw{Binding medium,Medieval manuscripts,Micro-Raman spectroscopy (MRS),Non-destructive micro-analysis,Paintings,Varnish}
+    \endentry
+    \entry{dazzi2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=41eee7fa4c70af511dbf0fed9e86af7e}{%
+           family={Dazzi},
+           familyi={D\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=744821c93db6ffc41ce0b3c78e84aa92}{%
+           family={Prater},
+           familyi={P\bibinitperiod},
+           given={Craig\bibnamedelima B},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7adf0c08f6b25b5566bc9b0f64949363}
+      \strng{fullhash}{7adf0c08f6b25b5566bc9b0f64949363}
+      \strng{bibnamehash}{7adf0c08f6b25b5566bc9b0f64949363}
+      \strng{authorbibnamehash}{7adf0c08f6b25b5566bc9b0f64949363}
+      \strng{authornamehash}{7adf0c08f6b25b5566bc9b0f64949363}
+      \strng{authorfullhash}{7adf0c08f6b25b5566bc9b0f64949363}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{PMID: 27958707}
+      \field{journaltitle}{Chemical Reviews}
+      \field{number}{7}
+      \field{title}{{AFM-IR: Technology and Applications in Nanoscale Infrared Spectroscopy and Chemical Imaging}}
+      \field{volume}{117}
+      \field{year}{2017}
+      \field{pages}{5146\bibrangedash 5173}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1021/acs.chemrev.6b00448
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.chemrev.6b00448
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.chemrev.6b00448
+      \endverb
+    \endentry
+    \entry{kurouski}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f3a1b4dc7e2dacf4957fac439180c244}{%
+           family={Kurouski},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=41eee7fa4c70af511dbf0fed9e86af7e}{%
+           family={Dazzi},
+           familyi={D\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e680c9f4f4bd19b384207e6e0662df6a}{%
+           family={Zenobi},
+           familyi={Z\bibinitperiod},
+           given={Renato},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9e86ee8313c41d1776f8a2562c4c1812}{%
+           family={Centrone},
+           familyi={C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{af100fcf10624e8bd0f22becad43244e}
+      \strng{fullhash}{aabee40f5569ad694b95da4db4255943}
+      \strng{bibnamehash}{aabee40f5569ad694b95da4db4255943}
+      \strng{authorbibnamehash}{aabee40f5569ad694b95da4db4255943}
+      \strng{authornamehash}{af100fcf10624e8bd0f22becad43244e}
+      \strng{authorfullhash}{aabee40f5569ad694b95da4db4255943}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Society Reviews}
+      \field{number}{11}
+      \field{title}{{Infrared and Raman chemical imaging and spectroscopy at the nanoscale}}
+      \field{volume}{49}
+      \field{year}{2020}
+      \field{pages}{3315\bibrangedash 3347}
+      \range{pages}{33}
+    \endentry
+    \entry{latour}{article}{}
+      \name{author}{6}{}{%
+        {{hash=19a3be60b104550fa03cc0be9489a74d}{%
+           family={Latour},
+           familyi={L\bibinitperiod},
+           given={Ga{ë}l},
+           giveni={G\bibinitperiod}}}%
+        {{hash=52551db0b5cc7f16d8bb08be39af0a18}{%
+           family={Robinet},
+           familyi={R\bibinitperiod},
+           given={Laurianne},
+           giveni={L\bibinitperiod}}}%
+        {{hash=41eee7fa4c70af511dbf0fed9e86af7e}{%
+           family={Dazzi},
+           familyi={D\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cfffe71dd682a348ad3cf7b06dd7456e}{%
+           family={Portier},
+           familyi={P\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5e28c4501c2754886d326502253392a5}{%
+           family={Deniset-Besseau},
+           familyi={D\bibinithyphendelim B\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7ff755adb1af5cd361b1964de82da59d}{%
+           family={Schanne-Klein},
+           familyi={S\bibinithyphendelim K\bibinitperiod},
+           given={Marie-Claire},
+           giveni={M\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{591b5f7b9aa4b61ae396712e0b46a470}
+      \strng{fullhash}{df2453e9ab5975b4d82a878e2966d003}
+      \strng{bibnamehash}{df2453e9ab5975b4d82a878e2966d003}
+      \strng{authorbibnamehash}{df2453e9ab5975b4d82a878e2966d003}
+      \strng{authornamehash}{591b5f7b9aa4b61ae396712e0b46a470}
+      \strng{authorfullhash}{df2453e9ab5975b4d82a878e2966d003}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{{Correlative nonlinear optical microscopy and infrared nanoscopy reveals collagen degradation in altered parchments}}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{26344}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep26344
+      \endverb
+    \endentry
+    \entry{Morsch}{article}{}
+      \name{author}{4}{}{%
+        {{hash=37e9d58119a2dd39858a0a0432940b78}{%
+           family={Morsch},
+           familyi={M\bibinitperiod},
+           given={Suzanne},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a3e3d4cb5206847f3218c521a9a02273}{%
+           family={Driel},
+           familyi={D\bibinitperiod},
+           given={Birgit\bibnamedelima A},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=7b6255967907e42d0ee4694aaac43c51}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Klaas\bibnamedelima Jan},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=1dda6c462a36a8e6cdf0464da73bc337}{%
+           family={Dik},
+           familyi={D\bibinitperiod},
+           given={Joris},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f928a8952c712ee0df4d7db62bb2de02}
+      \strng{fullhash}{01bff17e15513097219e07aded41a18f}
+      \strng{bibnamehash}{01bff17e15513097219e07aded41a18f}
+      \strng{authorbibnamehash}{01bff17e15513097219e07aded41a18f}
+      \strng{authornamehash}{f928a8952c712ee0df4d7db62bb2de02}
+      \strng{authorfullhash}{01bff17e15513097219e07aded41a18f}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{PMID: 28256818}
+      \field{journaltitle}{ACS Applied Materials {\&} Interfaces}
+      \field{number}{11}
+      \field{title}{{Investigating the Photocatalytic Degradation of Oil Paint using ATR-IR and AFM-IR}}
+      \field{volume}{9}
+      \field{year}{2017}
+      \field{pages}{10169\bibrangedash 10179}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1021/acsami.7b00638
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acsami.7b00638
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acsami.7b00638
+      \endverb
+    \endentry
+    \entry{morsch2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=37e9d58119a2dd39858a0a0432940b78}{%
+           family={Morsch},
+           familyi={M\bibinitperiod},
+           given={Suzanne},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3cf17af9a4def85c2293b8ee4d7254e0}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yanwen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9acb29b1a106e226f50ce4bd0d5d2b5d}{%
+           family={Lyon},
+           familyi={L\bibinitperiod},
+           given={Stuart\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=fc30faba7ae9fbe98e45f38bad442fb0}{%
+           family={Gibbon},
+           familyi={G\bibinitperiod},
+           given={Simon\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{f928a8952c712ee0df4d7db62bb2de02}
+      \strng{fullhash}{2354d421bca3899732f61d499a7060eb}
+      \strng{bibnamehash}{2354d421bca3899732f61d499a7060eb}
+      \strng{authorbibnamehash}{2354d421bca3899732f61d499a7060eb}
+      \strng{authornamehash}{f928a8952c712ee0df4d7db62bb2de02}
+      \strng{authorfullhash}{2354d421bca3899732f61d499a7060eb}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS applied materials {\&} interfaces}
+      \field{number}{1}
+      \field{title}{{Insights into epoxy network nanostructural heterogeneity using AFM-IR}}
+      \field{volume}{8}
+      \field{year}{2016}
+      \field{pages}{959\bibrangedash 966}
+      \range{pages}{8}
+    \endentry
+    \entry{ma}{article}{}
+      \name{author}{9}{}{%
+        {{hash=5d38fb894354b4d9907d6b0143642902}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9a0319915d2ef04ce1250bc624620700}{%
+           family={Beltran},
+           familyi={B\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a98a62a6ef63d209c20c9cbba08b16d5}{%
+           family={Ramer},
+           familyi={R\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dbd2ea772576b27b7688d8305aad2443}{%
+           family={Pavlidis},
+           familyi={P\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+        {{hash=fe1e453a55df923c4bd6c17c77e2bbe4}{%
+           family={Parkinson},
+           familyi={P\bibinitperiod},
+           given={Dilworth\bibnamedelima Y},
+           giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=be7fa41dc9bc1b261fc6dc70071f8d1d}{%
+           family={Thoury},
+           familyi={T\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4ccafb4e6dba2f6b557d201e6740ff7d}{%
+           family={Meldrum},
+           familyi={M\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9e86ee8313c41d1776f8a2562c4c1812}{%
+           family={Centrone},
+           familyi={C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b577534c81229ec74365f727994abb3}{%
+           family={Berrie},
+           familyi={B\bibinitperiod},
+           given={Barbara\bibnamedelima H},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{49444e0a5d688c31a958bc42b99d4530}
+      \strng{fullhash}{7bfc7d501ed814080b398c2b6b7d11b2}
+      \strng{bibnamehash}{7bfc7d501ed814080b398c2b6b7d11b2}
+      \strng{authorbibnamehash}{7bfc7d501ed814080b398c2b6b7d11b2}
+      \strng{authornamehash}{49444e0a5d688c31a958bc42b99d4530}
+      \strng{authorfullhash}{7bfc7d501ed814080b398c2b6b7d11b2}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1433-7851}
+      \field{journaltitle}{Angewandte Chemie (International ed. in English)}
+      \field{number}{34}
+      \field{title}{{Revealing the Distribution of Metal Carboxylates in Oil Paint from the Micro- to Nanoscale}}
+      \field{volume}{58}
+      \field{year}{2019}
+      \field{pages}{11652\bibrangedash 11656}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1002/anie.201903553
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/anie.201903553
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/anie.201903553
+      \endverb
+    \endentry
+    \entry{friction_afm}{article}{}
+      \name{author}{3}{}{%
+        {{hash=002a06d3cb08d29dd38b0b8f79e9f233}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seong\bibnamedelima Han},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=15fe3ffa4355fb66c12b6720e61b9ec8}{%
+           family={Marmo},
+           familyi={M\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e8524fb89dbf02bd0529d81b66f446eb}{%
+           family={Somorjai},
+           familyi={S\bibinitperiod},
+           given={Gabor\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9bd03a73db529c651fab92de6b901136}
+      \strng{fullhash}{f64d9dc91feb1ebdf45e472d0fd06ae5}
+      \strng{bibnamehash}{f64d9dc91feb1ebdf45e472d0fd06ae5}
+      \strng{authorbibnamehash}{f64d9dc91feb1ebdf45e472d0fd06ae5}
+      \strng{authornamehash}{9bd03a73db529c651fab92de6b901136}
+      \strng{authorfullhash}{f64d9dc91feb1ebdf45e472d0fd06ae5}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The surface of soft contact lenses made of crosslinked poly(2-hydroxyethyl methacrylate), pHEMA, has been investigated with atomic force microscopy in contact mode. The friction force and adhesive force measurements were able to differentiate the non-crosslinked pHEMA chains from the surface of the crosslinked pHEMA networks. These non-crosslinked pHEMA chains at the surface were anchored to the crosslinked pHEMA network, most likely by entanglement and their surfaces were about 2–4nm higher than the surrounding surface in a dehydrated state. In saline solution, the surface friction and adhesive force of the contact lens were significantly reduced compared to those measured for the surface-dehydrated contact lens.}
+      \field{annotation}{Opthalmic Special Issue}
+      \field{issn}{0142-9612}
+      \field{journaltitle}{Biomaterials}
+      \field{number}{24}
+      \field{title}{{Friction studies of hydrogel contact lenses using AFM: non-crosslinked polymers of low friction at the surface}}
+      \field{volume}{22}
+      \field{year}{2001}
+      \field{pages}{3285\bibrangedash 3294}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0142-9612(01)00175-2
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0142961201001752
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0142961201001752
+      \endverb
+      \keyw{AFM,Contact lens,Friction,Hydrogel,Poly(2-hydroxyethyl methacrylate)}
     \endentry
   \enddatalist
-  \missing{2018RS}
-  \missing{Mactaggart}
-  \missing{Morsch}
-  \missing{conti_2016}
-  \missing{dazzi2017}
-  \missing{friction_afm}
-  \missing{horiba}
-  \missing{inphotonics}
-  \missing{kurouski}
-  \missing{latour}
-  \missing{lazzari}
-  \missing{ma}
-  \missing{matousek_tissue}
-  \missing{morsch2016}
-  \missing{pallipurath2013}
-  \missing{pallipurath2014}
-  \missing{tomasini_raman}
-  \missing{vandenabeele}
 \endrefsection
 \endinput
 
