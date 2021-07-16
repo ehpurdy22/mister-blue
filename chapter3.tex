@@ -311,7 +311,7 @@ In contrast, the rougher and more heterogenous texture of the majority of the sa
 % ************************************************     Fitz1     *******************************************************************
 \todo{can you use NLP or ML to do this kind of pattern recognization?? this could be good to look into further.}
 
-\textit{Figures \ref{fig:Fitz1_sem_1}} and \textit{Figure \ref{fig:Fitz1_sem_2}} show sample Fitz1 at magnifications from 250x to 2500x. This sample is described as blue verditer, suggesting that it is synthetic rather than natural.
+\textit{Figures \ref{fig:Fitz1_sem_1}} and \textit{Figure \ref{fig:Fitz1_sem_2}} show sample Fitz1 at magnifications from 250x to 2500x. This sample is described as blue verditer, and a commercial product number is provided allowing confirmation that this is a synthetic product.
 
 At 250x magnification (\textit{Figure \ref{fig:Fitz1_sem_1}}, left), small uniform particles are seen. These appear generally circular and far more consistent in size and shape than the samples discussed thus far. At 750x magnification (\textit{Figure \ref{fig:Fitz1_sem_1}}, right), it is possible to qualitatively assess the diameter of particles as consistently < 5 $\mu$m. Particles resemble the spherical cluster observed in the sample AzOp. There is regularity of both size and shape, but it is difficult to determine whether the particles are flat discs or stacked semicircles occupying more volume.
 
@@ -458,9 +458,9 @@ The approximate particle size can be approximated to 5-10 $\mu$m from the image 
 \subsubsection[Particle size distribution of natural and artificial azurite]{Particle size distribution of natural and artificial azurite}
 \label{subsubsection3.1.1.1}
 
-SEM images at 750x magnification were collected from edges of loose pigments samples used for SEM analysis above where particles were most loosely dispersed. The two samples selected, HKI natural azurite and Fitz 1, were selected on the basis of their known sources as well as significantly different morphology. These images were processed in Fiji ImageJ (XXXX version) by increasing contrast and manually thresholding (shown in \textit{Figures \ref{} and \ref{}}) followed by manual selection of maximum lengths and measurement using the image scale bar. 
+SEM images at 750x magnification were collected from edges of loose pigments samples used for SEM analysis above where particles were most loosely dispersed. The two powder samples selected, HKI natural azurite and Fitz 1, were selected on the basis of their known sources as well as significantly different morphology. The historical cross section was also analysed using the same method. These images were processed in ImageJ (Version 1.53a) by increasing contrast and manually thresholding (shown in \textit{Figures \ref{imageJ_fitz1} and \ref{fig:imageJ_hki}}) followed by manual selection of maximum lengths and measurement using the image scale bar. 
 
-Five images of Fitz 1 were analyzed, with n(particles) = 102. Five images of HKI natural azurite were analyzed, with n(particles) = 127. There is undoubtedly some bias in selected particles due to the difficulty of defining edges in the images, and this may affect the spread of results. Examples of the original SEM image (left) and the thresholded binary image (right, used for measurements) are shown for Fitz 1 in \textit{Figure \ref{fig:imageJ_fitz1}} and for HKI natural azurite in \textit{Figure \ref{fig:imageJ_hki}}. 
+Five images of Fitz 1 were analysed, with n(particles) = 102. Five images of HKI natural azurite were analysed, with n(particles) = 127. Three images of the historical cross section were analysed, with n(particles) = 153. There is undoubtedly some bias in selected particles due to the difficulty of defining edges in the images, and this may affect the spread of results. Examples of the original SEM image (left) and the thresholded binary image (right, used for measurements) are shown for Fitz 1 in \textit{Figure \ref{fig:imageJ_fitz1}} and for HKI natural azurite in \textit{Figure \ref{fig:imageJ_hki}}. 
 
 \begin{figure}[H]
 \centering
@@ -490,9 +490,9 @@ Five images of Fitz 1 were analyzed, with n(particles) = 102. Five images of HKI
 \label{fig:imageJ_hki}
 \end{figure}
 
-The measurements from each sample image were combined and analysed using R (version XXXX) to produce a histogram of the frequency of length measurements (bin size = 1 $\mu$m) for each sample, shown in \textit{Figure \ref{fig:histogram_length}}. Based on the different particle morphologies, it would be reasonable to expect that the particle size distribution would differ between samples. Additionally, the presence of a bimodal distribution in the histogram might indicate the formation of aggregates of a specific size from single particles. 
+The measurements from each sample image were combined and analysed using R (RStudio Version 1.3.1093) to produce a histogram of the frequency of length measurements (bin size = 1 $\mu$m) for each sample, shown in \textit{Figure \ref{fig:histogram_length}}. Based on the different particle morphologies, it would be reasonable to expect that the particle size distribution would differ between samples. Additionally, the presence of a bimodal distribution in the histogram might indicate the formation of aggregates of a specific size from single particles. 
 
-The length distributions of Fitz 1 and HKI natural azurite do not show significant differences. Both show a high frequency of particles with lengths around 5 $\mu$m, with a low frequency of particles or clusters above 10 $\mu$m. Sample Fitz 1 does appear to have several particles of length around 15 $\mu$m, which is absent in HKI natural azurite. This could suggest that aggregates are forming at more consistent sizes than in sample HKI natural azurite. Overall, though, these two samples are statistically very similar in this analysis. \textit{Table \ref{table:r_stats}} contains descriptive statistics, and it is notable how similar the means and medians are between samples.  
+The length distributions of Fitz 1 and HKI natural azurite do not show significant differences. Both show a high frequency of particles with lengths around 5 $\mu$m, with a low frequency of particles or clusters above 10 $\mu$m. Sample Fitz 1 does appear to have several particles of length around 15 $\mu$m, which is absent in HKI natural azurite. This could suggest that aggregates are forming at more consistent sizes than in sample HKI natural azurite. Overall, though, these two samples are statistically very similar in this analysis. \textit{Table \ref{table:r_stats}} contains descriptive statistics, and it is notable how similar the means (and to some extent medians) are between all three samples. There is a notably larger range of particle lengths in the natural azurite sample, though this may be an artifact of processing since the historical cross section shows overall smaller particle sizes than both powder samples. 
 
 \begin{figure}[H]
 \centering
@@ -504,23 +504,47 @@ The length distributions of Fitz 1 and HKI natural azurite do not show significa
   \centering
   \includegraphics[width=\linewidth]{hist_hki}
 \end{minipage}
-\caption[Particle size analysis: Sample HKI natural azurite]{Particle size analysis: Sample HKI natural azurite. \textbf{Left)} Fitz 1, \textbf{Right)} HKI natural azurite.}
+\caption[Particle size analysis: HKI natural azurite, Fitz 1]{Particle size analysis: Sample HKI natural azurite. \textbf{Left)} Fitz 1, \textbf{Right)} HKI natural azurite.}
 \label{fig:histogram_length}
 \end{figure}
 
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hist_xsection}
+\caption[Particle size analysis: historical cross section]{Particle size analysis: historical cross section.} 
+\label{fig:hist_xsec}
+\end{figure}
+
 \begin{table}[H]
-\caption{Descriptive statistics: Fitz 1, HKI natural azurite}
+\caption{Descriptive statistics: Fitz 1, HKI natural azurite, historical cross section}
 \centering
 \label{table:r_stats}
 \begin{tabular}{c c c c}
 \toprule
 Reference sample & Mean & Median & Range \\
 \midrule
-HKI natural azurite & 5.437 & 8.583 & 1.177 - 52.176 \\
-Fitz 1 & 5.878 & 8.683 & 2.414 - 38.367 \\
+HKI natural azurite & 8.583 & 5.437 & 1.177 - 52.176 \\
+Fitz 1 & 8.683 & 5.878 & 2.414 - 38.367 \\
+Historical cross section & 8.328 & 7.648 & 2.142 - 28.930 \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+Lengths of the three samples are compared side-by-side in \textit{Figure \ref{fig:hist_all}}. The effect of outliers on the mean values of particle sizes is apparent, since both powder samples (black, red) show length distributions that, apart from a few larger outliers, are located at smaller lengths than that of the cross section in spite of all three datasets having very similar mean values. 
+
+The difference between the powder samples and the cross section may be due to a number of factors. The preparation of pigments likely differed in the 15th century as compared to today, though azurite's optical properties depend on the size of its particle grains and we may therefore expect the fineness of grinding not to vary wildly. 
+
+The suspension in a binding medium would be expected to affect the dispersion of grains, and this could reasonably affect aggregation (whether or not it would hinder aggregation depends on the hydrophilicity of the mineral, which is low in the case of azurite).~\autocite{zhang} Optimal dispersion may also be orientation dependent. As discussed above, sampling bias will be present as only the x and y dimensions of the grains can be measured using this method, and depending on the orientation of particles relative to the slicing of the cross section, certain orientations may be over or underrepresented. 
+
+The preparation of the cross section by resin embedding followed by microtoning will affect the appearance of particles under SEM. Microtoning may visually flatten the particles, making it difficult to see smaller grains. 
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hist_fitz1_hki_xsec_largerange}
+\caption[Particle size analysis: HKI natural azurite, Fitz 1, historical cross section]{Particle size analysis: Fitz 1 (black), HKI natural azurite (red), historical cross section (blue).} 
+\label{fig:hist_all}
+\end{figure}
+
 
 %fitz 1
 %Median : 5.878  
@@ -666,15 +690,2112 @@ In \textit{Figure \ref{fig:KE2_sem_2}}, the sample is shown at 1500x (left) and 
 \label{fig:KE2_sem_2}
 \end{figure}
 
+\subsection[Historical samples]{Historical samples}
+\label{subsection3.1.3}
+
+SEM images of a historical cross section removed from a 15th c. old masters work (XXXX specifics) are presented.
+
+Images were collected on two different instruments, XXXX and XXXX. The sample was coated with 24 nm carbon to decrease charging. On the Jeol SEM, images were collected using the backscatter electron detector (BES) which is sensitive to the atomic weight of the elements present in the sample: heavier elements will appear lighter in BES images. The BES detector was used in low vacuum mode to prevent sample charging. On the XXXX SEM, images were collected using the secondary electron detector (SE) and the BES detector simultaneously. 
+
+\textit{Figures \ref{fig:xsection_jeol_1}}-\textit{\ref{fig:xsection_jeol_3}} show the cross section at low magnification (550-750x). The entire width of the cross section is shown, and three distinct layers are visible. The sample contains natural azurite and artificial blue verditer pigment particles, as well as other pigments that are not copper based and, presumably, some form of organic binder in which the pigment particles are embedded. Thin cracks can be seen dividing the pigment layers as well as through the entire cross section vertically. \textit{Figure \ref{fig:hki_crossec_explanation}} labels these three layers A, B, C, with C containing, per the intensity of the BES image, relatively lower atomic weight components. 
+
+The size and shape of pigment particles is extremely uneven. The medium grey pigment in layers A and B is copper based according to EDX results (discussed in next section). EDX results also allow assignment of the bright white particles and aggregates to lead, likely a lead carbonate based on the presence of oxygen and absence of chromium (a component of lead yellow) as well as the color of the cross section under magnification. The copper based particles are morphologically distinct from the lead and manganese (darkest) particles, with dimensions on the order of 10-20 $\mu$m. Discussion of the copper containing pigments follows.
+
+\textit{Figures \ref{fig:xsection_jeol_4}}-\textit{\ref{fig:xsection_jeol_7}} show the cross section at high magnification (1400-2500x) using the Jeol instrument, and \textit{Figures \ref{fig:xsection_dept_1}}-\textit{\ref{fig:xsection_dept_8}} show the cross section at 1000x to 12,500x magnification using the XXXX instrument. The Jeol instrument in BES shows much more apparent contrast between different elements than the XXXX instrument, and this makes it slightly more straightforward to interpret. The XXXX instrument, on the other hand, shows both BES (left) and SE (right) images and offers much sharper resolution but allows poor distinguishing between pigments without the use of mapping. In \textit{Figure \ref{fig:xsection_dept_1}} and others, images capture the structure of the bound cross section clearly, with areas of pitting and cracking visible. One feature that is not easily explained is the feathery, indistinctly bound areas of white in the BES images. As this feature is not present in the SE images, it is not explained by surface charging. Morphologically, it looks to be due to an organic layer of binder, embedding resin, or carbon coating (????) rather than due to any pigment.
+
+At higher magnification, the irregularity of orientation and shape of particles is clear. \textit{Figure \ref{fig:xsection_dept_8}} shows the sample at high magnification in an area where copper blue pigments are expected to be present. Here, interesting planar morphology is shown which resembles that of samples Az 1 and AzMag (see \textit{Figures \ref{fig:az1_sem_2}} and \textit{\ref{fig:azmag_sem_5}}).
+
+\mynote{This is confusing!}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_crossec_explanation}
+\caption[Historical cross section with visually distinct layers A, B, and C labelled]{Historical cross section, SEM image at 550x magnification, with visually distinct layers A, B, and C labelled.}
+\label{fig:hki_crossec_explanation}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x550_40spot_250621}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x550_58spot_240621}
+\end{minipage}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 550x}
+\label{fig:xsection_jeol_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x750_2_58spot_240621}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x750_3_58spot_240621}
+\end{minipage}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 750x}
+\label{fig:xsection_jeol_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x750_58spot_240621}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_x750_2_250621}
+\end{minipage}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 750x. Right image is collected using the secondary electron (SE) detector.}
+\label{fig:xsection_jeol_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_x1400_2_250621}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x1500_3_40spot_250621}
+\end{minipage}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: \textbf{left)} SE detector: 1400x, \textbf{right)} 1500x}
+\label{fig:xsection_jeol_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x1500_40spot_250621}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x1500_2_40spot_250621}
+\end{minipage}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 1500x}
+\label{fig:xsection_jeol_5}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x2300_2_40spot_250621}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x2300_40spot_250621}
+\end{minipage}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 2300x}
+\label{fig:xsection_jeol_6}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x2500_2_40spot_250621}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_xsection_BES_LV_x2500_40spot_250621}
+\end{minipage}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 2500x}
+\label{fig:xsection_jeol_7}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_img_290621_01}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 1000x}
+\label{fig:xsection_dept_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_img_290621_04}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 1500x}
+\label{fig:xsection_dept_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_img_290621_08}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 2000x}
+\label{fig:xsection_dept_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_img_290621_03}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 3500x}
+\label{fig:xsection_dept_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_img_290621_12}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 4300x}
+\label{fig:xsection_dept_5}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_img_290621_05}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 5500x}
+\label{fig:xsection_dept_6}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_img_290621_10}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 5500x}
+\label{fig:xsection_dept_7}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_img_290621_11}
+\caption[SEM images: Historical cross section, azurite and blue verditer]{SEM images: Historical cross section, azurite and blue verditer. Magnification: 12,500x}
+\label{fig:xsection_dept_8}
+\end{figure}
+
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
+
+\section[EDS Data]{EDS Data}
+\label{section3.2}
+
+From the chemical formulas for azurite and malachite, it is possible to determine the expected ratios of elements detected by electron dispersive X-ray spectroscopy (EDS or EDX). Malachite (Cu\textsubscript{2}CO\textsubscript{3}(OH)\textsubscript{2}) has an expected Cu:O ratio of 2:5 or 0.4, while azurite (Cu\textsubscript{3}(CO\textsubscript{3})\textsubscript{2}(OH)\textsubscript{2}) has an expected Cu:O ratio of 3:8 or 0.375. Given an expected instrumental variation in oxygen detection of up to 10\%, it is difficult to distinguish between these two chemical formulas, but detection of Cu:O ratios within a small margin of error would allow confirmation of samples as basic copper carbonates.
+
+Detection of other elements and mapping of element intensities can suggest other minerals present in samples. \textit{Table \ref{table:eds_elems}} shows elements detected in EDS analysis of reference samples and which samples contain which elements, based on collection of point spectra as well as mapping. Not all elements are detected at each point, though copper, oxygen, and carbon are detected in all samples. Carbon is additionally present in the instrument chamber as well as on the tab holding the pressed powder samples, and the quantitative percent carbon detected is therefore not used for analysis. Additionally, one historical sample, a cross section removed from a 16th c. old masters work(XXXX specifcis in lab) has been studied. This sample is significantly more complex, containing not only both natural azurite and synthetic blue verditer but also other pigment and binder components.
+
+\begin{table}[H]
+\caption{Reference sample descriptions}
+\centering
+\label{table:eds_elems}
+\begin{tabular}{c c}
+\toprule
+Element & Detected in samples \\
+\midrule
+Carbon & Instrument, all samples \\
+Oxygen & All samples \\
+Copper & All samples \\
+Silicon & Az1, Az2, AzMag, AzOp, HKI, Fitz1, historical cross section \\
+Aluminium & Az1, AzOp, HKI, historical cross section \\
+Magnesium & HKI, historical cross section \\
+Calcium & AzMag, HKI, Fitz1, KE3, KE4, KE1a, historical cross section \\
+Potassium & HKI, historical cross section \\
+Iron & HKI, historical cross section \\
+Lead & historical cross section (non-azurite component) \\
+Arsenic & historical cross section (mapping only) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Quantitative atomic ratios are presented for each sample in the same order as above for SEM images, and mapping data is presented where relevant. Individual point spectra with sample locations are provided in the appendix containing supplemental data \mynote{not yet}. One point spectrum with sample location is shown here as an example.
+
+% ************************************************    HKI    ********************************************************************
+
+\textit{Figures \ref{fig:hki_eds_spec}} and \textit{\ref{fig:hki_eds_semimage}} show an example EDS point spectrum collected from the sample HKI natural azurite and the corresponding sample location on the SEM image. Elements detected in the sample are C, O, Cu, Al, Si, K, Mg, and Fe. \textit{Table \ref{table:hki_ratios}} presents the quantitative Cu:O and Si:O ratios for eight sample locations. The Si:Al ratio is relatively constant with an average value of 1.42 across all samples, but the other atomic ratios show significant variation, suggesting a mixture of several mineral components.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{HKI_nat_az_EDS_site2_spectrum1_050521_spectrumimage}
+\label{fig:hki_eds_spec}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{HKI_nat_az_EDS_site2_spectrum1_050521_semimage}
+\label{fig:hki_eds_semimage}
+\end{figure}
+
+\begin{table}[H]
+\caption{HKI natural azurite: EDS quantitative data}
+\centering
+\label{table:hki_ratios}
+\begin{tabular}{c c}
+\toprule
+\multicolumn{2}{c}{HKI natural azurite} \\
+\midrule
+Cu:O & Si:O \\
+\midrule
+0.0104 & 0.2152 \\
+0.2558 & 0.0465 \\
+0.0114 & 0.2906 \\
+0.0040 & 0.1816 \\
+0.3498 & 0.1667 \\
+0.0251 & 0.3351  \\
+0.0097 & 0.2499 \\
+0.0060 & 0.1696 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+EDS mapping data is shown in \textit{Figures \ref{fig:hki_map1}} and \textit{\ref{fig:hki_map2}}. This shows that copper and oxygen abundance is highly correlated, and that Cu intensity makes up only approximately 50\% of the mapped area. Carbon distribution appears random, as does potassium and magnesium. Iron is present in only the first map (\textit{Figure \ref{fig:hki_map1}}) and appears correlated with oxygen, suggesting the presence of some form of iron oxide in low abundance. 
+
+Silicon is correlated to both oxygen and aluminium in most areas in which it is present, with one area on the first map showing a silicon/oxygen containing compound that lacks aluminium. There is no apparent link between SEM morphology and elemental composition, and smaller surface particles are not elementally distinct from the larger substrate they rest on. Interestingly, the sample consists of as much or more copper-free content as copper-containing content, and only one of eight point spectra shows the expected Cu:O atomic ratio. 
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{HKI_nat_az_EDS_map1_050521_imgs}
+\label{fig:hki_map1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{HKI_nat_az_EDS_site3_map2_060521_imgs}
+\label{fig:hki_map2}
+\end{figure}
+
+% ************************************************    Az1    ********************************************************************
+
+C, O, Cu, Al, and Si were detected in sample Az 1. \textit{Table \ref{table:az1_ratios}} shows calculated Cu:O atomic ratios from point spectra. The average Cu:O ratio value is 0.3031 (SD = 0.0631). This is on the lower end of expected ratio values for azurite, though several ratio values are very close to that expected. The Si:O ratios were very consistent, averaging around 0.04, and the average Si:Al ratios were also quite consistent, averaging 1.44, though silicon was not present in all point spectra.
+
+\begin{table}[H]
+\caption{Az 1: EDS quantitative data}
+\centering
+\label{table:az1_ratios}
+\begin{tabular}{c}
+\toprule
+Az 1, azurite \\
+\midrule
+Cu:O \\
+\midrule
+0.3150 \\
+0.3236 \\
+0.2920 \\
+0.2018 \\
+0.3969 \\
+0.2893 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textit{Figures \ref{fig:az1_map1} - \ref{fig:az1_map3}} show mapping data for sample Az 1. Copper and oxygen are spatially correlated. Detection of zinc in one map is taken to be a false attribution and actually indicate copper due to overlapped peaks. Carbon is loosely correlated to copper and oxygen in \textit{Figure \ref{fig:az1_map3}}, but is clearly appearing in areas where the EDS carbon-basedf tab is exposed in all maps.
+
+Discussion of silicon, aluminium, and oxygen is more complicated. \textit{Figure \ref{fig:az1_map1}} shows that aluminium and silicon both appear in the same areas as both copper and oxygen, which is unexpected. \textit{Figure \ref{fig:az1_map2}} and \textit{Figure \ref{fig:az1_map3}} show correlation of silicon with aluminium broadly and with oxygen in a few areas of high intensity.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{Az1_EDS_map1_250221_imgs}
+\label{fig:az1_map1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{Az1_EDS_map2_250221_imgs}
+\label{fig:az1_map2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{Az1_EDS_map3_250221_imgs}
+\label{fig:az1_map3}
+\end{figure}
+
+% ************************************************    Az2    ********************************************************************
+
+C, O, Cu, and Si were detected in sample Az 2. Cu:O ratios calculated from point spectra show inconsistent values, 0.2699 and 0.3897 (\textit{Table \ref{table:az2_ratios}}). However, the calculated Si:O ratios at the same locations do not explain the fluctuation; the ratio of 0.0198 Si:O is far too small to indicate a silicon oxide type mineral.
+
+\begin{table}[H]
+\caption{Az 2: EDS quantitative data}
+\centering
+\label{table:az2_ratios}
+\begin{tabular}{c c}
+\toprule
+\multicolumn{2}{c}{Az 2, azurite} \\
+\midrule
+Cu:O & Si:O \\
+\midrule
+0.2699 & 0.0198 \\
+0.3897 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textit{Figure \ref{fig:az2_map1}} shows that while copper and oxygen are highly correlated across the sample map, silicon and carbon are randomly distributed. This suggests that silicon is present as a trace element rather than a major component of the pigment, and this is supported by the low Si:O ratios calculated from the point spectra. This means that the variation in Cu:O atomic ratio values must be due to a factor other than intensity due to another mineral present.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{Az2_EDS_map1_250221_imgs}
+\label{fig:az2_map1}
+\end{figure}
+
+% ************************************************    AzMag    ********************************************************************
+
+The elements detected in sample AzMag are C, O, Cu, Si, and Ca. The calculated Cu:O ratios, shown in \textit{Table \ref{table:azmag_ratios}}, are 0.1786 and 0.3404. These are not consistent: 0.3404 is very close to the expected ratio for basic copper carbonates, but 0.1786 is well outside the expected range. Silicon is present at very low levels (approximate Si:O ratio = 0.01), and does not explain this variation. Calcium is present in the first sample with a ratio of 0.1012, which is significant. It is possible that a calcium containing mineral is present throughout this sample, a conclusion supported by mapping data.
+
+\begin{table}[H]
+\caption{AzMag: EDS quantitative data}
+\centering
+\label{table:azmag_ratios}
+\begin{tabular}{c }
+\toprule
+AzMag, azurite \\
+\midrule
+Cu:O \\
+\midrule
+0.1786 \\
+0.3404 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textit{Figure \ref{fig:azmag_map1}} shows mapping data for sample AzMag. Silicon and carbon show lower intensity than copper and oxygen, but all four are closely correlated spatially. Calcium was not detected in the mapping data.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{AzMag_EDS_map1_260221_imgs}
+\label{fig:azmag_map1}
+\end{figure}
+
+
+% ************************************************    AzOp    ********************************************************************
+
+C, O, Cu, Al, and Si are detected in sample AzOp. Atomic ratios are shown in \textit{Table \ref{table:azop_ratios}}. Cu:O ratios calculated from point spectra are very low in sample AzOp, while those of Si:Al and Si:O are relatively high compared to other samples. This suggests that the sample contains other minerals such as quartz or aluminum silicate may be present, though the calculated atomic ratios do not fit empirical formulae so it is not possible to allow determination of these minerals from EDS data alone.
+
+\begin{table}[H]
+\caption{AzOp: EDS quantitative data}
+\centering
+\label{table:azop_ratios}
+\begin{tabular}{c c c}
+\toprule
+\multicolumn{3}{c}{AzOp, azurite} \\
+\midrule
+Cu:O & Si:Al & Si:O \\
+\midrule
+0.2330 & 1.2572 & 0.1051 \\
+0.2062 & 1.1140 & 0.0753 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textit{Figure \ref{fig:azop_map1}} shows mapping data for sample AzOp. Copper and oxygen are clearly correlated, and carbon is somewhat correlated to copper and oxygen; all expected for a basic copper carbonate. However, areas also show significant correlation between silicon and oxygen. Silicon is abundant all over the sample. Mapping data does not show aluminium intensity, surprisingly. 
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{AzOp_EDS_map1_260221_imgs}
+\label{fig:azop_map1}
+\end{figure}
+
+% ************************************************    Fitz1    ********************************************************************
+
+C, O, Cu, Al (mapping only), Si, and Ca were detected in sample Fitz 1. Atomic ratios are shown in \textit{Table \ref{table:fitz1_ratios}}. Given that Fitz 1 is a synthetic pigment, it is reasonable to hypothesize that it would contain only carbon, copper, and oxygen and show fairly consistent Cu:O ratios across point spectra. Surprisingly, low levels of silicon and calcium were detected, and Cu:O ratios range from 0.1366 (well below the expected ratio for a basic copper carbonate) to 0.3314 (approximately the expected ratio for a basic copper carbonate). Furthermore, the chemical variation is interesting when compared to the morphological consistency observed.
+
+\begin{table}[H]
+\caption{Fitz 1: EDS quantitative data}
+\centering
+\label{table:fitz1_ratios}
+\begin{tabular}{c c c}
+\toprule
+\multicolumn{3}{c}{Fitz 1, blue verditer} \\
+\midrule
+Cu:O & Ca:O & Si:O \\
+\midrule
+0.2316 & 0.1555 & 0 \\
+0.3115 & 0 & 0.0122 \\
+0.1366 & 0.2510 & 0 \\
+0.3314 & 0 & 0.0085 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textit{Figures \ref{fig:fitz1_map1}} and \textit{\ref{fig:fitz1_map2}} show mapping data for sample Fitz 1. Copper is spatially correlated with some areas of oxygen intensity, as is carbon. Calcium appears randomly distributed all over the mapped area. Silicon appears with oxygen in several spots with very high intensity, and aluminium and silicon also appear correlated.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{Fitz1_EDS_map1_020321_imgs}
+\label{fig:fitz1_map1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{Fitz1_EDS_map1_030321_imgs}
+\label{fig:fitz1_map2}
+\end{figure}
+
+% ************************************************    KE3    ********************************************************************
+
+The elements detected in sample KE 3 are C, O, Cu, Ca, and Si (mapping only). \textit{Table \ref{table:ke3_ratios}} shows the Cu:O and Ca:O ratios from point spectra. While the first ratio value for Cu:O is as expected for a basic copper carbonate, the second is much lower and outside the expected range. This correlates with a much larger Ca:O ratio, suggesting that some particles in the sample may be calcium oxide rather than copper carbonate.
+
+\begin{table}[H]
+\caption{KE 3: EDS quantitative data}
+\centering
+\label{table:ke3_ratios}
+\begin{tabular}{c c}
+\toprule
+\multicolumn{2}{c}{KE 3, light verditer bice} \\
+\midrule
+Cu:O & Ca:O \\
+\midrule
+0.3411 & 0.0069 \\
+0.2052 & 0.1108 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textit{Figure \ref{ke3_map1}} shows mapping data for sample KE 3. Silicon appears in mapping data sporadically but not in point spectra. Copper is correlated with oxygen, as is calcium to some extent.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{KE3_EDS_map1_050321_imgs}
+\label{fig:ke3_map1}
+\end{figure}
+
+% ************************************************    KE4    ********************************************************************
+
+C, O, Cu, and Ca were detected in sample KE 4. Point spectra show calculated Cu:O ratios (\textit{Table \ref{table:ke4_ratios}}) that, while slightly low, are within range of that expected for azurite (particularly the second ratio, 0.3381). The calculated Ca:O ratios are very low.
+
+\begin{table}[H]
+\caption{KE 4: EDS quantitative data}
+\centering
+\label{table:ke4_ratios}
+\begin{tabular}{c c}
+\toprule
+\multicolumn{2}{c}{KE 4, blue bice} \\
+\midrule
+Cu:O & Ca:O \\
+\midrule
+0.2703 & 0.0660 \\
+0.3381 & 0.0095 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textit{Figure \ref{fig:ke4_map1}} shows mapping data for sample KE 4. Copper and oxygen, as observed in other samples, are spatially correlated. Carbon is also correlated to copper and oxygen. Calcium is correlated to oxygen as well, only in areas absent of copper, suggesting some form of calcium oxide is present.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{KE4_EDS_map1_030321_imgs}
+\label{fig:ke4_map1}
+\end{figure}
+
+% ************************************************    KE5    ********************************************************************
+
+The elements detected in sample KE 5 are C, O, and Cu. The average ratio of Cu:O is 0.3150, and all sampled atomic ratios are shown in \textit{Table \ref{table:ke5_ratios}}. While this value is lower than expected, it is within reason given the possible error in quantitative determination of oxygen.
+
+\begin{table}[H]
+\caption{KE 5: EDS quantitative data}
+\centering
+\label{table:ke5_ratios}
+\begin{tabular}{c}
+\toprule
+KE 5, blue verditer \\
+\midrule
+Cu:O \\
+\midrule
+0.3371 \\
+0.3284 \\
+0.2794 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ************************************************    Ma1    ********************************************************************
+
+The elements detected in sample Ma 1 are C, O, and Cu. \textit{Figure \ref{fig:ma1_map1}} shows mapping data from sample Ma 1. Zinc is also shown at low abundance in mapping data, though this is likely intensity due to copper since the peaks of copper and zinc overlap. There is correlation between carbon, oxygen, and copper, and the Cu:O ratio is 0.3675, expected for a basic copper carbonate compound. 
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{Ma1_EDS_map1_250221_imgs}
+\label{fig:ma1_map1}
+\end{figure}
+
+% ************************************************    KE1a    ********************************************************************
+
+C, O, Cu, and Ca were detected in sample KE 1a. Calcium is present in relatively low levels, and is likely a trace element rather than a major component of the pigment. The measured Cu:O ratios (\textit{Table \ref{table:ke1a_ratios}}) are within the range expected for a basic copper carbonate.
+
+\begin{table}[H]
+\caption{KE 1a: EDS quantitative data}
+\centering
+\label{table:ke1a_ratios}
+\begin{tabular}{c c}
+\toprule
+\multicolumn{2}{c}{KE 1a, green bice} \\
+\midrule
+Cu:O & Ca:O \\
+\midrule
+0.3483 & 0.0086 \\
+0.3622 & 0.0066 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ************************************************    KE2    ********************************************************************
+
+C, O, Cu, and Si (mapping only) were detected in sample KE 2. The measured Cu:O ratios (\textit{Table \ref{table:ke2_ratios}} are within the range expected for a basic copper carbonate, and are among the highest measured of any samples.
+
+\begin{table}[H]
+\caption{KE 2: EDS quantitative data}
+\centering
+\label{table:ke2_ratios}
+\begin{tabular}{c}
+\toprule
+KE 2, green verditer \\
+\midrule
+Cu:O \\
+\midrule
+0.3724 \\
+0.3944 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textit{Figures \ref{ke2_map1}} and \textit{\ref{ke2_map2}} show mapping data for sample KE 2. Carbon is sparsely distributed, and there are areas without any elements detected. Silicon, which is not detected in point spectra, is present in low levels. Copper and oxygen are clearly correlated, as expected.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{KE2_ES_map1_040321_imgs}
+\label{fig:ke2_map1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{KE2_EDS_map1_050321_imgs}
+\label{fig:ke2_map2}
+\end{figure}
+
+All three green samples (Ma 1, KE 1a, and KE 2) show Cu:O atomic ratios that very closely match the expected ratios for both azurite and malachite. The chemical formula for green verditer is as yet unproven, and the margin of error on quantitative analysis is not able to distinguish between a 2:5 and a 3:8 Cu:O ratio. It is clear that there is minimal trace mineral present in all these samples, and that atomic ratios support identification as basic copper carbonates.
+
+%       *****************************
+
+The historical cross section is significantly more complex than the powder samples, both natural and synthetic. Mapping data for the cross section collected on both the Jeol and XXXX SEM-EDS instruments are presented in \textit{Figures \ref{fig:xsection_map1}}-\textit{\ref{fig:xsection_map1}}. Azurite and verditer pigments are only two components of the sample. The cross section consists of three visually distinct layers, but EDS mapping data shows that layers A and B (in \textit{Figure \ref{ig:hki_crossec_explanation}}) are chemically comparable. The visual difference is likely due to the higher intensity of lead containing components in layer B. 
+
+This sample was carbon-coated prior to analysis, so carbon is present across the entire sample surface. Oxygen is also distributed across the entirety of the cross section, which is expected as many common pigments are metal carbonates or metal oxides and any organic binder components will also contain oxygen. Calcium, aluminium, and silicon are also detected over the entire area of the cross section, with some map data showing correlation between aluminum and silicon. It is likely that an aluminosilicate is present in association with one or more pigments. Calcium-based ground layers are commonly observed, and a material such as limestone could contain Ca, Si, and Al as well as potassium, also detected in the cross section. Potassium is observed in the natural azurite sample from the HKI, which might suggest it is also a marker that could be used to evaluate the nature of azurite pigments.
+
+That said, there is also evidence that aluminosilicates are present as distinct components, as observed in \textit{Figure \ref{fig:xsection_map4}} where silicon and aluminium are observed to be present in precisely localised areas. Calcite is a common mineral associated with azurite and is observed in almost all powder samples, natural and artificial. Calcium carbonates as well as aluminosilicates including kaolinite were also both commonly used as paint extenders, white particles mixed with coloured pigments to lower their cost to produce.~\autocite{encyclopedia}
+
+Magnesium, lead, and copper are localised to areas of the sample that correspond with distinct pigment particles or aggregates as discussed above. Given the lack of chromium present as well as the colour of the cross sectional layers, the lead pigment present is suggested to be lead white, a basic Lead(II) carbonate that occurs as a mineral called cerussite. While cerussite may occur in association with natural azurite,\autocite{Aru} the abundance of lead and the lack of overlapping areas of lead and copper detected by EDS suggests that lead white was employed as a pigment mixed with the blue azurite.
+
+Magnesium oxides have been used historically as pigments, most importantly \textit{terre verte} or green earth which is a mixture of an iron silicate with a magnesium-containing clay. The low abundance of iron across the sample discourages the assignment of magnesium to terre verte, and therefore, magnesium-based minerals associated with azurite or cerussite must be considered as an explanation. Additionally, magnesium may be present as mica or another common mineral. Iron is detected sporadically across the cross section, which suggests that it is present as a trace element. Arsenic is suggested in one EDS map (\textit{Figure \ref{HKI_cross_section_Site 7_2021-06-30_15-23-55}}), and this must be evaluated further.
+
+Quantitative analysis of copper containing areas of the sample shows a Cu:O ratio of, on average, 0.217. This is lower than the expected ratio for azurite/blue verditer. Also detected in these areas are significant levels of iron and lead, indicating that there may be impurities in the blue pigment particles (iron) and/or contribution from the three dimensional structure of the paint mixture containing azurite and lead white. At lower levels there is also silicon and magnesium detected, which may be due to impurities as well. 
+
+This data demonstrates the complexity of analysis of samples consisting of a mixture of different pigments that are also each composed of, potentially, several minerals.
+
+%O, Cu, Ca, Pb, Mg, Al, Si, K, Fe ( map only: As??)
+
+%Darkest: Mg on mapping (low atomic number)
+%Lightest: Lead, fine powder, widely distributed through one of the laters, likely mixed with Cu to make a lighter color (lead white)
+%Moderate: Copper
+%Darker layer shows relatively more Si in mapping
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_xsection_eds_260621_map1_x700}
+\label{fig:xsection_map1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_cross_section_eds_analysis_250621_site1_map1}
+\label{fig:xsection_map2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_xsection_eds_260621_map2_x2300}
+\label{fig:xsection_map3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_xsection_eds_260621_map3_x2300}
+\label{fig:xsection_map4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{hki_xsection_eds_260621_map4_x2300}
+\label{fig:xsection_map5}
+\end{figure}
+
+\textit{Figures \ref{fig:xsection_map6}} and \textit{\ref{fig:xsection_map7}} show mapping data collected from a more sensitive EDS instrument (is this fair?). The magnification is approximately 2000x here.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{HKI_cross_section_Site 1_2021-06-30_15-15-34}
+\label{fig:xsection_map6}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{HKI_cross_section_Site 7_2021-06-30_15-23-55}
+\label{fig:xsection_map7}
+\end{figure}
+
+
+
 
 % *******************************************************************************************************************************
 % *******************************************************************************************************************************
 % *******************************************************************************************************************************
 
 \section[Raman Data]{Raman Data}
-\label{section3.2}
+\label{section3.3}
+
+\mynote{not done}
+
+\textit{Figure \ref{fig:label_raman}} shows Raman spectra of samples Az1 (blue) and Ma1 (green). The spectrum from Az1 was collected from a bright blue particle, while the spectrum from Ma1 was collected from the fine green bulk particles. Both therefore are representative of the component of the pigment responsible for the colour rather than of another mineral impurity (which will be discussed further down). Peak centers are labelled.
+
+Hydroxyl stretching bands are reported by Frost et. al. for azurite at 3453 and 3427 cm\textsuperscript{-1} and for malachite at 3468 and 3386 cm\textsuperscript{-1}.~\autocite{Frost} These bands are not shown here, but were observed. Mattei et. al. note that bands below 600 cm\textsuperscript{-1} are due to CuO vibrations and bands from 600 to 1600 cm\textsuperscript{-1} are due to carbonate vibrations.
 
 
+azurite
+Frost: $v1    v2_Sym  v2_Antisym   v3_B2   v3_A1    v4_B2   v4_A1$
+       1095   816       834        1419    1430     765     739
+
+Bicchieri: 145, 180, 250, 284, 335, 403, 545, 746, 767, 839, 940, 1098, 1432 and 1573 cm
+
+Mattei: 157vw 174vw 182vw 240vw 250vw \textbf{267vw} 282vw 332vw
+\textbf{387vw} 402s 542vw \textbf{744vw is shoulder} 768w 840w 937vw 1099m
+1422m(sh) \textbf{1433m is shoulder in mine} 1462vw 1582w 3431w
+
+Me: \textbf{113 139 migtht be too low or 139 might be 145} 180 248 284 330 401 \textbf{501} 541 \textbf{577} 764sh 836sh  937 1096 1419sh 1459 1576
+Good agreement but I have two extra peaks (501, 577) and Mattei etal have extra 387, 267
+
+
+malachite
+
+mattei: \textbf{157m(sh) 171m(sh) 182s 204vw 224vw} 272s 352w 435s 513w
+537m 601vw 723vw 753vw 1058w 1101w 1370vw 1463vw
+1497s 3380w
+
+frost: $v1    v2_Sym  v2_Antisym   v3_B2   v3_A1    v4_B2   v4_A1$
+      1096     816      801       1492     1364     752     717
+                                  1514     1423
+
+me: 119 145(sh) 154 169(sh) 179 221 270 351 432 503 529 557 580 628 718 952 1005 1057 1096 1363 1492 1579 1595 1723
+Not observed: 204 mattei, 537 mattei, 601 mattei, 752 (753 mattei), 801 816
+537 and 601 are liekly convoluted with the complex peaks
+me not seen elsewhere: 118, 145, [503 529 557 580 628], 952, 1005, 1579 1595 1723
+do not fit quartz, chalconatrite, hoganite, 
+
+
+
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[t]{\linewidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{az1_blue_withlabels}
+\hfill
+\includegraphics[width=0.9\linewidth]{Ma1_labels_ACTUAL}
+\hfill
+\end{minipage}
+\caption[Raman spectra of natural azurite and malachite, peak centers labelled.]{Raman spectra of natural azurite (blue, top) and malachite (green, bottom). Peak centers are labelled.}
+\label{fig:label_raman}
+\end{figure}
+\mynote{rescale green in order to have same x range}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{blue_HKI_Az1_Az2_labels}
+\label{fig:blue_comparison1}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\linewidth]{blue_HKI_AzMag_AzOp_Ke4}
+\label{fig:blue_comparison2}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\linewidth]{blue_Fitz1_Ke5_Ke3_Ke4_labels_actual}
+\caption[Raman spectra of blue samples, peak centers labelled.]{Raman spectra of natural azurite and synthetic blue verditer samples. Peak centers are labelled to highlight variations in spectra.}
+\label{fig:blue_comparison3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{green_pigments_all_labels_ACTUAL.jpg}
+\caption[Raman spectra of green samples, peak centers labelled.]{Raman spectra of natural malachite and synthetic green verditer samples. Peak centers are labelled to highlight variations in spectra.}
+\label{fig:green_comparison}
+\end{figure}
+
+
+
+%az1_blue_withlabels
+%Ma1_labels
+
+%green_pigments_all_labels
+%blue_HKI_AzMag_AzOp_Ke4
+%blue_HKI_Az1_Az2_labels
+%blue_Fitz1_Ke5_Ke3_labels
+%blue_Fitz1_Ke5_Ke3_Ke4_labels
+
+
+% *******************************************************************************************************************************
+% *******************************************************************************************************************************
+% *******************************************************************************************************************************
 
 \section[AFM Data]{AFM Data}
-\label{section3.3}
+\label{section3.4}
+
+%      HKI natural azurite
+
+\mynote{Re polish HKI natural azurite powder sample and try again.}
+
+%       Az 1
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_def_1}
+\end{minipage}
+\caption[Height and deflection maps, Az 1]{Height and deflection maps, Az 1, 80 x 80 $\mu$m.}
+\label{fig:afm_az1_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az1_tapping_mode_240521_phase_1}
+\caption[Phase map, Az 1]{Phase map, Az 1, 80 x 80 $\mu$m.}
+\label{fig:afm_az1_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_def_2}
+\end{minipage}
+\caption[Height and deflection maps, Az 1]{Height and deflection maps, Az 1, 30 x 30 $\mu$m.}
+\label{fig:afm_az1_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az1_tapping_mode_240521_phase_2}
+\caption[Phase map, Az 1]{Phase map, Az 1, 30 x 30 $\mu$m.}
+\label{fig:afm_az1_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_def_3}
+\end{minipage}
+\caption[Height and deflection maps, Az 1]{Height and deflection maps, Az 1, 10 x 10 $\mu$m.}
+\label{fig:afm_az1_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az1_tapping_mode_240521_phase_3}
+\caption[Phase map, Az 1]{Phase map, Az 1, 10 x 10 $\mu$m.}
+\label{fig:afm_az1_phase_3}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_height_4}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_def_4}
+\end{minipage}
+\caption[Height and deflection maps, Az 1]{Height and deflection maps, Az 1, 80 x 80 $\mu$m.}
+\label{fig:afm_az1_height_def_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az1_tapping_mode_240521_phase_4}
+\caption[Phase map, Az 1]{Phase map, Az 1, 80 x 80 $\mu$m.}
+\label{fig:afm_az1_phase_4}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_height_5}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_def_5}
+\end{minipage}
+\caption[Height and deflection maps, Az 1]{Height and deflection maps, Az 1, 20 x 20 $\mu$m.}
+\label{fig:afm_az1_height_def_5}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az1_tapping_mode_240521_phase_5}
+\caption[Phase map, Az 1]{Phase map, Az 1, 20 x 20 $\mu$m.}
+\label{fig:afm_az1_phase_5}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_height_6}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_def_6}
+\end{minipage}
+\caption[Height and deflection maps, Az 1]{Height and deflection maps, Az 1, 80 x 80 $\mu$m.}
+\label{fig:afm_az1_height_def_6}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az1_tapping_mode_240521_phase_6}
+\caption[Phase map, Az 1]{Phase map, Az 1, 80 x 80 $\mu$m.}
+\label{fig:afm_az1_phase_6}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_height_7}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az1_tapping_mode_240521_def_7}
+\end{minipage}
+\caption[Height and deflection maps, Az 1]{Height and deflection maps, Az 1, 20 x 20 $\mu$m.}
+\label{fig:afm_az1_height_def_7}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az1_tapping_mode_240521_phase_7}
+\caption[Phase map, Az 1]{Phase map, Az 1, 20 x 20 $\mu$m.}
+\label{fig:afm_az1_phase_7}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_height_5}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_def_5}
+\end{minipage}
+\caption[Height and deflection maps, Az 1]{Height and deflection maps, Az 1, 80 x 80 $\mu$m.}
+\label{fig:afm_az1_height_def_8}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMag_tapping_mode_200521_phase_5}
+\caption[Phase map, Az 1]{Phase map, Az 1, 80 x 80 $\mu$m.}
+\label{fig:afm_az1_phase_8}
+\end{figure}
+
+
+
+%        Az 2
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az2_tapping_mode_060421_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az2_tapping_mode_060421_def_1}
+\end{minipage}
+\caption[Height and deflection maps, Az 2]{Height and deflection maps, Az 2, 80 x 80 $\mu$m.}
+\label{fig:afm_az2_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az2_tapping_mode_060421_phase_1}
+\caption[Phase map, Az 2]{Phase map, Az 2, 80 x 80 $\mu$m.}
+\label{fig:afm_az2_phase_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az2_tapping_mode_060421_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az2_tapping_mode_060421_def_2}
+\end{minipage}
+\caption[Height and deflection maps, Az 2]{Height and deflection maps, Az 2, 25 x 25 $\mu$m.}
+\label{fig:afm_az2_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az2_tapping_mode_060421_phase_2}
+\caption[Phase map, Az 2]{Phase map, Az 2, 25 x 25 $\mu$m.}
+\label{fig:afm_az2_phase_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az2_tapping_mode_060421_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az2_tapping_mode_060421_def_3}
+\end{minipage}
+\caption[Height and deflection maps, Az 2]{Height and deflection maps, Az 2, 80 x 80 $\mu$m.}
+\label{fig:afm_az2_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az2_tapping_mode_060421_phase_3}
+\caption[Phase map, Az 2]{Phase map, Az 2, 80 x 80 $\mu$m.}
+\label{fig:afm_az2_phase_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az2_tapping_mode_060421_height_4}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Az2_tapping_mode_060421_def_4}
+\end{minipage}
+\caption[Height and deflection maps, Az 2]{Height and deflection maps, Az 2, 30 x 30 $\mu$m.}
+\label{fig:afm_az2_height_def_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Az2_tapping_mode_060421_phase_4}
+\caption[Phase map, Az 2]{Phase map, Az 2, 30 x 30 $\mu$m.}
+\label{fig:afm_az2_phase_4}
+\end{figure}
+
+%        AzMag
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.9\textwidth]{AzMAg_tapping_mode_140521_height_def_1_vers2}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMAg_tapping_mode_140521_phase_1}
+\caption[Phase map, AzMag]{Phase map, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.9\textwidth]{AzMAg_tapping_mode_140521_height_def_2_vers2}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 33 x 33 $\mu$m.}
+\label{fig:afm_azmag_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMAg_tapping_mode_140521_phase_2}
+\caption[Phase map, AzMag]{Phase map, AzMag, 33 x 33 $\mu$m.}
+\label{fig:afm_azmag_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.9\textwidth]{AzMAg_tapping_mode_140521_height_def_3}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 10 x 10 $\mu$m.}
+\label{fig:afm_azmag_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMAg_tapping_mode_140521_phase_3}
+\caption[Phase map, AzMag]{Phase map, AzMag, 10 x 10 $\mu$m.}
+\label{fig:afm_azmag_phase_3}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_190521_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_190521_def_1}
+\end{minipage}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_height_def_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMag_tapping_mode_190521_phase_1}
+\caption[Phase map, AzMag]{Phase map, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_phase_4}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_190521_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_190521_def_3}
+\end{minipage}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_height_def_5}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMag_tapping_mode_190521_phase_3}
+\caption[Phase map, AzMag]{Phase map, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_phase_5}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_def_1}
+\end{minipage}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_height_def_6}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMag_tapping_mode_200521_phase_1}
+\caption[Phase map, AzMag]{Phase map, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_phase_6}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_def_2}
+\end{minipage}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 30 x 30 $\mu$m.}
+\label{fig:afm_azmag_height_def_7}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMag_tapping_mode_200521_phase_2}
+\caption[Phase map, AzMag]{Phase map, AzMag, 30 x 30 $\mu$m.}
+\label{fig:afm_azmag_phase_7}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_def_3}
+\end{minipage}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_height_def_8}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMag_tapping_mode_200521_phase_3}
+\caption[Phase map, AzMag]{Phase map, AzMag, 80 x 80 $\mu$m.}
+\label{fig:afm_azmag_phase_8}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_height_4}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzMag_tapping_mode_200521_def_4}
+\end{minipage}
+\caption[Height and deflection maps, AzMag]{Height and deflection maps, AzMag, 30 x 30 $\mu$m.}
+\label{fig:afm_azmag_height_def_9}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzMag_tapping_mode_200521_phase_4}
+\caption[Phase map, AzMag]{Phase map, AzMag, 30 x 30 $\mu$m.}
+\label{fig:afm_azmag_phase_9}
+\end{figure}
+
+%             Az Op
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzOp_tapping_mode_250521_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzOp_tapping_mode_250521_def_1}
+\end{minipage}
+\caption[Height and deflection maps, AzOp]{Height and deflection maps, AzOp, 80 x 80 $\mu$m.}
+\label{fig:afm_azop_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzOp_tapping_mode_250521_phase_1}
+\caption[Phase map, AzOp]{Phase map, AzOp, 80 x 80 $\mu$m.}
+\label{fig:afm_azop_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzOp_tapping_mode_250521_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzOp_tapping_mode_250521_def_2}
+\end{minipage}
+\caption[Height and deflection maps, AzOp]{Height and deflection maps, AzOp, 35 x 35 $\mu$m.}
+\label{fig:afm_azop_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzOp_tapping_mode_250521_phase_2}
+\caption[Phase map, AzOp]{Phase map, AzOp, 35 x 35 $\mu$m.}
+\label{fig:afm_azop_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzOp_tapping_mode_250521_height_4}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzOp_tapping_mode_250521_def_4}
+\end{minipage}
+\caption[Height and deflection maps, AzOp]{Height and deflection maps, AzOp, 10 x 10 $\mu$m.}
+\label{fig:afm_azop_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzOp_tapping_mode_250521_phase_4}
+\caption[Phase map, AzOp]{Phase map, AzOp, 10 x 10 $\mu$m.}
+\label{fig:afm_azop_phase_3}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzOp_tapping_mode_250521_height_5}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{AzOp_tapping_mode_250521_def_5}
+\end{minipage}
+\caption[Height and deflection maps, AzOp]{Height and deflection maps, AzOp, 4 x 4 $\mu$m.}
+\label{fig:afm_azop_height_def_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{AzOp_tapping_mode_250521_phase_5}
+\caption[Phase map, AzOp]{Phase map, AzOp, 4 x 4 $\mu$m.}
+\label{fig:afm_azop_phase_4}
+\end{figure}
+
+%            Fitz 1
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Fitz1_tapping_mode_010621_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Fitz1_tapping_mode_010621_def_1}
+\end{minipage}
+\caption[Height and deflection maps, Fitz 1]{Height and deflection maps, Fitz 1, 80 x 80 $\mu$m.}
+\label{fig:afm_fitz1_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Fitz1_tapping_mode_010621_phase_1}
+\caption[Phase map, Fitz 1]{Phase map, Fitz 1, 80 x 80 $\mu$m.}
+\label{fig:afm_fitz1_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Fitz1_tapping_mode_010621_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Fitz1_tapping_mode_010621_def_2}
+\end{minipage}
+\caption[Height and deflection maps, Fitz 1]{Height and deflection maps, Fitz 1, 20 x 20 $\mu$m.}
+\label{fig:afm_fitz1_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Fitz1_tapping_mode_010621_phase_2}
+\caption[Phase map, Fitz 1]{Phase map, Fitz 1, 20 x 20 $\mu$m.}
+\label{fig:afm_fitz1_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Fitz1_tapping_mode_010621_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Fitz1_tapping_mode_010621_def_3}
+\end{minipage}
+\caption[Height and deflection maps, Fitz 1]{Height and deflection maps, Fitz 1, 6 x 6 $\mu$m.}
+\label{fig:afm_fitz1_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Fitz1_tapping_mode_010621_phase_3}
+\caption[Phase map, Fitz 1]{Phase map, Fitz 1, 6 x 6 $\mu$m.}
+\label{fig:afm_fitz1_phase_3}
+\end{figure}
+
+%               KE 3
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_def_1}
+\end{minipage}
+\caption[Height and deflection maps, KE 3]{Height and deflection maps, KE 3, 80 x 80 $\mu$m.}
+\label{fig:afm_ke3_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE3_tapping_mode_210621_phase_1}
+\caption[Phase map, KE 3]{Phase map, KE 3, 80 x 80 $\mu$m.}
+\label{fig:afm_ke3_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_def_2}
+\end{minipage}
+\caption[Height and deflection maps, KE 3]{Height and deflection maps, KE 3, 40 x 40 $\mu$m.}
+\label{fig:afm_ke3_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE3_tapping_mode_210621_phase_2}
+\caption[Phase map, KE 3]{Phase map, KE 3, 40 x 40 $\mu$m.}
+\label{fig:afm_ke3_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_def_3}
+\end{minipage}
+\caption[Height and deflection maps, KE 3]{Height and deflection maps, KE 3, 20 x 20 $\mu$m.}
+\label{fig:afm_ke3_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE3_tapping_mode_210621_phase_3}
+\caption[Phase map, KE 3]{Phase map, KE 3, 20 x 20 $\mu$m.}
+\label{fig:afm_ke3_phase_3}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_height_4}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_def_4_vers2}
+\end{minipage}
+\caption[Height and deflection maps, KE 3]{Height and deflection maps, KE 3, 6 x 6 $\mu$m.}
+\label{fig:afm_ke3_height_def_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE3_tapping_mode_210621_phase_4}
+\caption[Phase map, KE 3]{Phase map, KE 3, 6 x 6 $\mu$m.}
+\label{fig:afm_ke3_phase_4}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_height_6}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE3_tapping_mode_210621_def_6}
+\end{minipage}
+\caption[Height and deflection maps, KE 3]{Height and deflection maps, KE 3, 80 x 80 $\mu$m.}
+\label{fig:afm_ke3_height_def_5}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE3_tapping_mode_210621_phase_6_vers2}
+\caption[Phase map, KE 3]{Phase map, KE 3, 80 x 80 $\mu$m.}
+\label{fig:afm_ke3_phase_5}
+\end{figure}
+
+
+%              KE 4
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE4_tapping_mode_190421_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE4_tapping_mode_190421_def_1}
+\end{minipage}
+\caption[Height and deflection maps, KE 4]{Height and deflection maps, KE 4, 80 x 80 $\mu$m.}
+\label{fig:afm_ke4_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE4_tapping_mode_190421_phase_1}
+\caption[Phase map, KE 4]{Phase map, KE 4, 80 x 80 $\mu$m.}
+\label{fig:afm_ke4_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE4_tapping_mode_190421_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE4_tapping_mode_190421_def_2}
+\end{minipage}
+\caption[Height and deflection maps, KE 4]{Height and deflection maps, KE 4, 30 x 30 $\mu$m.}
+\label{fig:afm_ke4_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE4_tapping_mode_190421_phase_2}
+\caption[Phase map, KE 4]{Phase map, KE 4, 30 x 30 $\mu$m.}
+\label{fig:afm_ke4_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE4_tapping_mode_190421_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE4_tapping_mode_190421_def_3}
+\end{minipage}
+\caption[Height and deflection maps, KE 4]{Height and deflection maps, KE 4, 80 x 80 $\mu$m.}
+\label{fig:afm_ke4_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE4_tapping_mode_190421_phase_3}
+\caption[Phase map, KE 4]{Phase map, KE 4, 80 x 80 $\mu$m.}
+\label{fig:afm_ke4_phase_3}
+\end{figure}
+
+
+%               KE 5
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE5_tapping_mode_200421_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE5_tapping_mode_200421_def_1}
+\end{minipage}
+\caption[Height and deflection maps, KE 5]{Height and deflection maps, KE 5, 80 x 80 $\mu$m.}
+\label{fig:afm_ke5_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE5_tapping_mode_200421_phase_1}
+\caption[Phase map, KE 5]{Phase map, KE 5, 80 x 80 $\mu$m.}
+\label{fig:afm_ke5_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE5_tapping_mode_200421_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE5_tapping_mode_200421_def_2}
+\end{minipage}
+\caption[Height and deflection maps, KE 5]{Height and deflection maps, KE 5, 30 x 30 $\mu$m.}
+\label{fig:afm_ke5_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE5_tapping_mode_200421_phase_2}
+\caption[Phase map, KE 5]{Phase map, KE 5, 30 x 30 $\mu$m.}
+\label{fig:afm_ke5_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE5_tapping_mode_200421_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE5_tapping_mode_200421_def_3}
+\end{minipage}
+\caption[Height and deflection maps, KE 5]{Height and deflection maps, KE 5, 8 x 8 $\mu$m.}
+\label{fig:afm_ke5_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE5_tapping_mode_200421_phase_3}
+\caption[Phase map, KE 5]{Phase map, KE 5, 8 x 8 $\mu$m.}
+\label{fig:afm_ke5_phase_3}
+\end{figure}
+
+
+%            Ma 1
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_def_1}
+\end{minipage}
+\caption[Height and deflection maps, Ma 1]{Height and deflection maps, Ma 1, 80 x 80 $\mu$m.}
+\label{fig:afm_ma1_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Ma1_tapping_mode_270521_phase_1}
+\caption[Phase map, Ma 1]{Phase map, Ma 1, 80 x 80 $\mu$m.}
+\label{fig:afm_ma1_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_def_2}
+\end{minipage}
+\caption[Height and deflection maps, Ma 1]{Height and deflection maps, Ma 1, 30 x 30 $\mu$m.}
+\label{fig:afm_ma1_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Ma1_tapping_mode_270521_phase_2}
+\caption[Phase map, Ma 1]{Phase map, Ma 1, 30 x 30 $\mu$m.}
+\label{fig:afm_ma1_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_def_3}
+\end{minipage}
+\caption[Height and deflection maps, Ma 1]{Height and deflection maps, Ma 1, 10 x 10 $\mu$m.}
+\label{fig:afm_ma1_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Ma1_tapping_mode_270521_phase_3}
+\caption[Phase map, Ma 1]{Phase map, Ma 1, 10 x 10 $\mu$m.}
+\label{fig:afm_ma1_phase_3}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_height_6}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_def_6}
+\end{minipage}
+\caption[Height and deflection maps, Ma 1]{Height and deflection maps, Ma 1, 4 x 4 $\mu$m.}
+\label{fig:afm_ma1_height_def_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Ma1_tapping_mode_270521_phase_6}
+\caption[Phase map, Ma 1]{Phase map, Ma 1, 4 x 4 $\mu$m.}
+\label{fig:afm_ma1_phase_4}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_height_8}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Ma1_tapping_mode_270521_def_8}
+\end{minipage}
+\caption[Height and deflection maps, Ma 1]{Height and deflection maps, Ma 1, 80 x 80 $\mu$m.}
+\label{fig:afm_ma1_height_def_5}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{Ma1_tapping_mode_270521_phase_8}
+\caption[Phase map, Ma 1]{Phase map, Ma 1, 80 x 80 $\mu$m.}
+\label{fig:afm_ma1_phase_5}
+\end{figure}
+
+
+%             Ke 1a
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1a_tapping_mode_010421_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1a_tapping_mode_010421_phase_1}
+\end{minipage}
+\caption[Height and phase maps, KE 1a]{Height and phase maps, KE 1a, 80 x 80 $\mu$m.}
+\label{fig:afm_ke1a_height_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1a_tapping_mode_010421_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1a_tapping_mode_010421_phase_2}
+\end{minipage}
+\caption[Height and phase maps, KE 1a]{Height and phase maps, KE 1a, 80 x 80 $\mu$m.}
+\label{fig:afm_ke1a_height_phase_2}
+\end{figure}
+
+
+%            Ke 1b
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_def_1}
+\end{minipage}
+\caption[Height and deflection maps, KE 1b]{Height and deflection maps, KE 1b, 80 x 80 $\mu$m.}
+\label{fig:afm_ke1b_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE1b_tapping_mode_280521_phase_1}
+\caption[Phase map, KE 1b]{Phase map, KE 1b, 80 x 80 $\mu$m.}
+\label{fig:afm_ke1b_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_def_3}
+\end{minipage}
+\caption[Height and deflection maps, KE 1b]{Height and deflection maps, KE 1b, 30 x 30 $\mu$m.}
+\label{fig:afm_ke1b_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE1b_tapping_mode_280521_phase_3}
+\caption[Phase map, KE 1b]{Phase map, KE 1b, 30 x 30 $\mu$m.}
+\label{fig:afm_ke1b_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_height_4}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_def_4}
+\end{minipage}
+\caption[Height and deflection maps, KE 1b]{Height and deflection maps, KE 1b, 10 x 10 $\mu$m.}
+\label{fig:afm_ke1b_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE1b_tapping_mode_280521_phase_4}
+\caption[Phase map, KE 1b]{Phase map, KE 1b, 10 x 10 $\mu$m.}
+\label{fig:afm_ke1b_phase_3}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_height_5}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_def_5}
+\end{minipage}
+\caption[Height and deflection maps, KE 1b]{Height and deflection maps, KE 1b, 4 x 4 $\mu$m.}
+\label{fig:afm_ke1b_height_def_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE1b_tapping_mode_280521_phase_5}
+\caption[Phase map, KE 1b]{Phase map, KE 1b, 4 x 4 $\mu$m.}
+\label{fig:afm_ke1b_phase_4}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_height_6}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE1b_tapping_mode_280521_def_6}
+\end{minipage}
+\caption[Height and deflection maps, KE 1b]{Height and deflection maps, KE 1b, 2 x 2 $\mu$m.}
+\label{fig:afm_ke1b_height_def_6}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{KE1b_tapping_mode_280521_phase_6}
+\caption[Phase map, KE 1b]{Phase map, KE 1b, 2 x 2 $\mu$m.}
+\label{fig:afm_ke1b_phase_6}
+\end{figure}
+
+
+%               KE 2      
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_phase_1}
+\end{minipage}
+\caption[Height and phase maps, KE 2]{Height and phase maps, KE 2, 60 x 60 $\mu$m.}
+\label{fig:afm_ke2_height_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_phase_2}
+\end{minipage}
+\caption[Height and phase maps, KE 2]{Height and phase maps, KE 2, 20 x 20 $\mu$m.}
+\label{fig:afm_ke2_height_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_phase_3}
+\end{minipage}
+\caption[Height and phase maps, KE 2]{Height and phase maps, KE 2, 80 x 80 $\mu$m.}
+\label{fig:afm_ke2_height_phase_3}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_height_4}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_phase_4}
+\end{minipage}
+\caption[Height and phase maps, KE 2]{Height and phase maps, KE 2, 25 x 25 $\mu$m.}
+\label{fig:afm_ke2_height_phase_4}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_height_5}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_phase_5}
+\end{minipage}
+\caption[Height and phase maps, KE 2]{Height and phase maps, KE 2, 80 x 80 $\mu$m.}
+\label{fig:afm_ke2_height_phase_5}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_height_6}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{KE2_tapping_mode_010421_phase_6}
+\end{minipage}
+\caption[Height and phase maps, KE 2]{Height and phase maps, KE 2, 35 x 35 $\mu$m.}
+\label{fig:afm_ke2_height_phase_6}
+\end{figure}
+
+
+
+%            HKI cross section
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{HKI_xsection_tapping_mode_090621_camera}
+\caption[AFM sampling location of historic cross section]{AFM sampling location of historic cross section.}
+\label{fig:camera_hki_xsection}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_tapping_mode_090621_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_tapping_mode_090621_height_5}
+\end{minipage}
+\caption[Height maps, historic cross section]{Height maps, historic cross section. \textbf{Left)} 40 x 40 $\mu$m, \textbf{Right)} 80 x 80 $\mu$m.}
+\label{fig:afm_xsection_height_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_tapping_mode_080621_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_tapping_mode_080621_def_1}
+\end{minipage}
+\caption[Height and deflection maps, historic cross section]{Height and deflection maps, historic cross section, 80 x 80 $\mu$m.}
+\label{fig:afm_xsection_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{HKI_xsection_tapping_mode_080621_phase_1}
+\caption[Phase map, historic cross section]{Phase map, historic cross section, 80 x 80 $\mu$m.}
+\label{fig:afm_xsection_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_tapping_mode_080621_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_tapping_mode_080621_def_2}
+\end{minipage}
+\caption[Height and deflection maps, historic cross section]{Height and deflection maps, historic cross section, 35 x 35 $\mu$m.}
+\label{fig:afm_xsection_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{HKI_xsection_tapping_mode_080621_phase_2}
+\caption[Phase map, historic cross section]{Phase map, historic cross section, 35 x 35 $\mu$m.}
+\label{fig:afm_xsection_phase_2}
+\end{figure}
+
+
+%           INFRARED DATA
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_contact_ir_220621_camera_spectrum1to4marker}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_contact_ir_220621_height1_allspectrummarker}
+\end{minipage}
+\caption[txt]{txt}
+\label{fig:afm_xsection_camera_speclocs_height_1}
+\end{figure}
+
+\mynote{spectra should be put in here}
+
+%\begin{figure}[H]
+%\centering
+%  \includegraphics[width=.45\textwidth]{HKI_xsection_contact_ir_230621_height_1_allmarkers_copy}
+%\caption[txt]{txt}
+%\label{fig:afm_xsection_speclocs_height_2}
+%\end{figure}
+
+IR mapping:
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_contact_ir_230621_amp_2_markers_1200_bigrange}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_contact_ir_230621_amp_4_markers_1418_bigrange}
+\end{minipage}
+\caption[txt]{txt}
+\label{fig:afm_xsection_irmaps_1200_1418}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_contact_ir_230621_amp_3_markers_1484}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_contact_ir_230621_amp_5_markers_1670_bigrange}
+\end{minipage}
+\caption[txt]{txt}
+\label{fig:afm_xsection_irmaps_1484_1670}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_contact_ir_230621_amp_1_markers_1736}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HKI_xsection_contact_ir_230621_amp_7_markers_1830_bigrange}
+\end{minipage}
+\caption[txt]{txt}
+\label{fig:afm_xsection_irmaps_1736_1830}
+\end{figure}
+
+Ratio maps: not doing this yet -- have looked at them though and i have thoughts.
+
+
