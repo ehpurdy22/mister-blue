@@ -534,7 +534,7 @@ Lengths of the three samples are compared side-by-side in \textit{Figure \ref{fi
 
 The difference between the powder samples and the cross section may be due to a number of factors. The preparation of pigments likely differed in the 15th century as compared to today, though azurite's optical properties depend on the size of its particle grains and we may therefore expect the fineness of grinding not to vary wildly. 
 
-The suspension in a binding medium would be expected to affect the dispersion of grains, and this could reasonably affect aggregation (whether or not it would hinder aggregation depends on the hydrophilicity of the mineral, which is low in the case of azurite).~\autocite{zhang} Optimal dispersion may also be orientation dependent. As discussed above, sampling bias will be present as only the x and y dimensions of the grains can be measured using this method, and depending on the orientation of particles relative to the slicing of the cross section, certain orientations may be over or underrepresented. 
+The suspension in a binding medium would be expected to affect the dispersion of grains, and this could reasonably affect aggregation (whether or not it would hinder aggregation depends on the hydrophilicity of the mineral, which is low in the case of azurite).~\autocite{Zhang} Optimal dispersion may also be orientation dependent. As discussed above, sampling bias will be present as only the x and y dimensions of the grains can be measured using this method, and depending on the orientation of particles relative to the slicing of the cross section, certain orientations may be over or underrepresented. 
 
 The preparation of the cross section by resin embedding followed by microtoning will affect the appearance of particles under SEM. Microtoning may visually flatten the particles, making it difficult to see smaller grains. 
 
@@ -1284,7 +1284,7 @@ The historical cross section is significantly more complex than the powder sampl
 
 This sample was carbon-coated prior to analysis, so carbon is present across the entire sample surface. Oxygen is also distributed across the entirety of the cross section, which is expected as many common pigments are metal carbonates or metal oxides and any organic binder components will also contain oxygen. Calcium, aluminium, and silicon are also detected over the entire area of the cross section, with some map data showing correlation between aluminum and silicon. It is likely that an aluminosilicate is present in association with one or more pigments. Calcium-based ground layers are commonly observed, and a material such as limestone could contain Ca, Si, and Al as well as potassium, also detected in the cross section. Potassium is observed in the natural azurite sample from the HKI, which might suggest it is also a marker that could be used to evaluate the nature of azurite pigments.
 
-That said, there is also evidence that aluminosilicates are present as distinct components, as observed in \textit{Figure \ref{fig:xsection_map4}} where silicon and aluminium are observed to be present in precisely localised areas. Calcite is a common mineral associated with azurite and is observed in almost all powder samples, natural and artificial. Calcium carbonates as well as aluminosilicates including kaolinite were also both commonly used as paint extenders, white particles mixed with coloured pigments to lower their cost to produce.~\autocite{encyclopedia}
+That said, there is also evidence that aluminosilicates are present as distinct components, as observed in \textit{Figure \ref{fig:xsection_map4}} where silicon and aluminium are observed to be present in precisely localised areas. Calcite is a common mineral associated with azurite and is observed in almost all powder samples, natural and artificial. Calcium carbonates as well as aluminosilicates including kaolinite were also both commonly used as paint extenders, white particles mixed with coloured pigments to lower their cost to produce.~\autocite{Townsend}
 
 Magnesium, lead, and copper are localised to areas of the sample that correspond with distinct pigment particles or aggregates as discussed above. Given the lack of chromium present as well as the colour of the cross sectional layers, the lead pigment present is suggested to be lead white, a basic Lead(II) carbonate that occurs as a mineral called cerussite. While cerussite may occur in association with natural azurite,\autocite{Aru} the abundance of lead and the lack of overlapping areas of lead and copper detected by EDS suggests that lead white was employed as a pigment mixed with the blue azurite.
 
@@ -1436,7 +1436,35 @@ do not fit quartz, chalconatrite, hoganite,
 \label{fig:green_comparison}
 \end{figure}
 
+Analysis of resin embedded samples, including historical cross sections, proved difficult using the confocal Raman system. \textit{Figure \ref{fig:fluor_example_graph}} shows two spectra collected using an excitation wavelength of 532 nm from the surface of the historical cross section sample. Azurite is clearly present in one spectrum, shown in black, with a strong band at 400 cm\textsuperscript{-1} (band highlighted in blue). Cerussite (lead white) is present in both spectra (highlighted in grey). Broac baselines were subtracted but it is apparent from the presence of a regular scalloped peak shape that additional fluorescence is present. Analysis of the polyester resin without pigment present shows that these bands are from resin contributions, though similar fluorescense has also appeared as discussed previously in spectra of impurities in powdered azurite and verditer samples. 
 
+These bands are present in all spectra collected from the historical cross section sample, and the signal is strong enough to mask contributions from smaller azurite peaks and is comparable in intensity to contributions from cerussite, a major component of the cross section along with azurite. This clearly poses a problem for detection of variation in pigments and introduces uncertainty into the results.
+
+\textit{Figure \ref{fig:contours_xsection}} shows contour plots of azurite peak intensity (left) and integrated peak area (right) across a 10 x 10 spectrum map of an area of the cross section. The undertainty introduced by the strong resin bands is apparent, as peak area and peak intensity do not indicate azurite particles are present in the same areas of the map. This is due to varying contributions from the underlying fluorescence band that are difficult to subtract without introducing additional errors into the analysis.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\linewidth]{fluor_example_graph}
+\caption[Raman spectra of historical cross section]{Raman spectra of two points on historical cross section, blue area. The semicircular repeated peak formation observed is due to fluorescence from the resin (contribution from non-azurite pigment particles and organic binder is also possible). The major azurite (blue) and cerussite (grey) peaks are highlighted on the graph and spectra are offset for clarity.}
+\label{fig:fluor_example_graph}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{050721map400intensities}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{050721map400areas}
+\end{minipage}
+\caption[Contour maps, azurite Raman intensity in historical cross section]{Contour maps show the Raman intensity as: \textbf{left)} 400 cm\textsuperscript{-1} peak intensity and \textbf{right)} 400 cm\textsuperscript{-1} integrated peak area. X and Y axes map to locations on the sample surface where spectra were collected, in total 10 x 10 = 100 spectra.}
+\label{fig:contours_xsection}
+\end{figure}
+
+The 473 nm excitation wavelength was also tested to determine whether the fluorescence would be mitigated by shifting the excitation frequency. This was determined not to resolve the issue, with fluorescence and sample bands showing a similar increase in intensity at 473 nm. It may be possible to generate sample spectra without fluorescence by moving to the anti-Stokes spectrum rather than the Stokes spectrum, as fluorescence is not possible in the anti-Stokes region. However, this may come at the cost of overall intensity and signal-to-noise strength.
 
 %az1_blue_withlabels
 %Ma1_labels
@@ -1457,9 +1485,126 @@ do not fit quartz, chalconatrite, hoganite,
 
 %      HKI natural azurite
 
-\mynote{Re polish HKI natural azurite powder sample and try again.}
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_height_1}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_def_1}
+\end{minipage}
+\caption[Height and deflection maps, HKI natural azurite]{Height and deflection maps, HKI natural azurite, 80 x 80 $\mu$m.}
+\label{fig:afm_hki_nataz_height_def_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{hki_nataz_tapping_mode_150721_phase_1}
+\caption[Phase map, HKI natural azurite]{Phase map, HKI natural azurite, 80 x 80 $\mu$m.}
+\label{fig:afm_hki_nataz_phase_1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_height_2}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_def_2}
+\end{minipage}
+\caption[Height and deflection maps, HKI natural azurite]{Height and deflection maps, HKI natural azurite, 40 x 40 $\mu$m.}
+\label{fig:afm_hki_nataz_height_def_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{hki_nataz_tapping_mode_150721_phase_2}
+\caption[Phase map, HKI natural azurite]{Phase map, HKI natural azurite, 40 x 40 $\mu$m.}
+\label{fig:afm_hki_nataz_phase_2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_height_3}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_def_3}
+\end{minipage}
+\caption[Height and deflection maps, HKI natural azurite]{Height and deflection maps, HKI natural azurite, 15 x 15 $\mu$m.}
+\label{fig:afm_hki_nataz_height_def_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{hki_nataz_tapping_mode_150721_phase_3}
+\caption[Phase map, HKI natural azurite]{Phase map, HKI natural azurite, 15 x 15 $\mu$m.}
+\label{fig:afm_hki_nataz_phase_3}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_height_4}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_def_4}
+\end{minipage}
+\caption[Height and deflection maps, HKI natural azurite]{Height and deflection maps, HKI natural azurite, 5 x 5 $\mu$m.}
+\label{fig:afm_hki_nataz_height_def_4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{hki_nataz_tapping_mode_150721_phase_4}
+\caption[Phase map, HKI natural azurite]{Phase map, HKI natural azurite, 5 x 5 $\mu$m.}
+\label{fig:afm_hki_nataz_phase_4}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_height_5}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{hki_nataz_tapping_mode_150721_def_5}
+\end{minipage}
+\caption[Height and deflection maps, HKI natural azurite]{Height and deflection maps, HKI natural azurite, 40 x 40 $\mu$m.}
+\label{fig:afm_hki_nataz_height_def_5}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.45\textwidth]{hki_nataz_tapping_mode_150721_phase_5}
+\caption[Phase map, HKI natural azurite]{Phase map, HKI natural azurite, 40 x 40 $\mu$m.}
+\label{fig:afm_hki_nataz_phase_5}
+\end{figure}
 
 %       Az 1
+
+AFM images recorded in tapping mode capture height, deflection, and phase variation across the sample surface. While height measurements are self-explanatory, phase and deflection measurements record variations in mechanical and chemical properties that are not easily deconvoluted or quantified. Deflection refers to the displacement of the tip with interaction with the surface, while the phase shift refers to the difference between the oscillation frequency of the tip initially and after interaction with the surface.~\autocite{iscpi} The phase shift and deflection measurements are therefore affected by changes in the tip interaction with the surface such as adherence or repulsion. 
+
+Height effects can also appear in phase and deflection maps, appearing as intensity changes that change direction as the tip passes over a structure on the surface of the sample. These will appear, for instance, as a high deflection voltage or phase shift on the left side of the structure and a low deflection voltage or phase shift on the right side as the tip scans from left to right. This is due to changing the contact area of the tip with the sample as it approaches a change in topography.~\autocite{iscpi} 
+
+\textit{Figures \ref{1}}-\textit{\ref{2}} show height and deflection maps of 80 x 80 $\mu$m areas of sample Az 1. Height images show randomly oriented areas of higher topographies, which appear rounded and vary in size. It is possible that these structures arise from some clustering of smaller particles. This is consistent across all areas sampled. \textit{Figure \ref{3.67}, left} shows several pits of approximately 3-4 $\mu$m in depth, though the variation in finer features is approximately 750 nm. The boundary of the powder sample with the resin, shown in \textit{Figure \ref{3.71}, left}, is highly irregular. Macro scale aggregates range from 15 to 40 $\mu$m in size, with smaller spherical structures on top.
+
+Deflection images from sample Az 1 are inconsistent. Several show concentric circles mapping approximately to the height variation but otherwise offering few clues to the sample composition. \textit{Figure \ref{3.71}, right} shows resin areas as flat, with broad and fairly flat waves. The mineral sample shows a finer structure in the deflection map, with a few small bright circles that do not clearly map to height and may indicate some material variation in the sample.
+
+Phase images (\textit{Figures \ref{1}}-\textit{\ref{2}}) of Az 1 with 80 x 80 $\mu$m dimensions correlate to the height variation of the sample and also clearly differentiate between the sample and the resin. Overall, phase images tend to flatten the macro structure and allow better visualisation of finer structure. Fine variation appears on a 2-5 $\mu$m scale. \textit{Figures \ref{3.64}} and \textit{\ref{3.68}} show bright areas of high phase shift that may indicate randomly dispersed heterogeneity across the surface.  
 
 \begin{figure}[H]
 \centering
@@ -1482,6 +1627,11 @@ do not fit quartz, chalconatrite, hoganite,
 \label{fig:afm_az1_phase_1}
 \end{figure}
 
+\textit{Figures \ref{}}, \textit{\ref{}}, and \textit{\ref{}} show 30 x 30 and 20 x 20 $\mu$m height and deflection maps of Az 1. Height maps (left) show clusters of rounded or oval structures with dimensions of approximately 1 $\mu$m and height variation of 100s of nanometers up to a maximum of 1-2 $\mu$m. In some areas these smaller particles appear to be overlaid upon larger structures of 8-10 $\mu$m. Deflection images (right) show concentric circles and do not offer a clear interpretation.
+
+
+\textit{Figures \ref{}}, \textit{\ref{}}, and \textit{\ref{}} show 30 x 30 and 20 x 20 $\mu$m phase maps of Az 1. Interestingly, these phase maps appear to show variation that is not explained solely by height effects. Variation at the top of \textit{Figure \ref{}} shows areas of large phase shift that appear as brighter sections of particles. \textit{Figures \ref{}} and \textit{\ref{}} are strange. They show small height variations (appearing as light edges with darker centers) of approximately 1-2 um that do link to the height map. Also though, there are smaller areas of brightness that are flat. These are circular and approximately 1 um, and do not correlate to height image. As these images show reproducibility, this is a strong suggestion of chemical or mechanical changes across the sample surface. 
+
 
 \begin{figure}[H]
 \centering
@@ -1503,6 +1653,9 @@ do not fit quartz, chalconatrite, hoganite,
 \caption[Phase map, Az 1]{Phase map, Az 1, 30 x 30 $\mu$m.}
 \label{fig:afm_az1_phase_2}
 \end{figure}
+
+
+\textit{Figure \ref{}} shows a 10 x 10 $\mu$m height and deflection map of Az 1. The height map (left) shows a single particle that appears bifurcated by a diagonal line. This particle measures approximately 5 x 2.5 um per section. The deflection image (right) reinforces the idea of bifurcation of this particle. \textit{Figure \ref{}} the corresponding phase map of Az 1. The phase map clearly shows the flat planes joined by higher ridges that forms what appears to be a single particle bifurcated by a diagonal line, approximately 5-6 um round, with an uneven border and possibly smaller bud-like structures in the bottom right of the image.
 
 
 \begin{figure}[H]
@@ -1637,6 +1790,18 @@ do not fit quartz, chalconatrite, hoganite,
 
 
 %        Az 2
+
+\textit{Figures \ref{fig:afm_az2_height_def_1}} and \textit{\ref{3.77}} show 80 x 80 $\mu$m height and deflection maps of sample Az 2. Height maps (left) show spherical small particles sitting on top of larger features. In \textit{Figure \ref{fig:afm_az2_height_def_1}}, there is a fine structure of uneven approximately squared circular forms in the top right, with dimensions of approximately 10 um across, with smaller spheres on top of these layers. In \textit{Figure \ref{3.77}}, small spherical particles are observed to rest on the macro structure. The macro structure appears irregular and pocked in areas. There are areas such as (x = 80 um, y = 40 um) showing sharper and more irregular angular edges. While both images show some glitching due to issues maintaining tip contact, they nonetheless give useful information about the sample.
+
+Deflection images (right) show sample/resin boundaries clearly. The tendency of deflection maps to flatten the macro image even as height effects are evident is shown in \textit{Figure \ref{3.77}}, where the pocks and divots in the height image are not seen.
+
+\textit{Figures \ref{fig:afm_az2_height_def_1}} and \textit{\ref{3.77}} show the corresponding 80 x 80 $\mu$m phase maps of sample Az 2. These show the same structure observed in the height and deflection maps, without additional features. 
+
+
+\textit{Figures \ref{3.79}} and \textit{\ref{2}} show 30 x 30 and 25 x 25 $\mu$m height and deflection maps of sample Az 2. Height maps (left) show almost perfectly circular particles. Additionally, \textit{Figure \ref{3.79}} shows particles with defined sharp edges and sheet-like structures. Interestingly, while the deflection map in \textit{Figure \ref{3.79}} shows the same circular structures evident in the height image, the deflection map in \textit{Figure \ref{2}} shows the inverse of the height map. This is at the moment not explained. 
+
+\textit{Figures \ref{3.80}} and \textit{\ref{2}} show the corresponding 30 x 30 and 25 x 25 $\mu$m phase maps of sample Az 2. These correlate to the height maps, showing the round particles and resin/sample boundary clearly. Areas of at the boundary of the resin with the sample appear to show particle-shaped voids, indicating loss of particles possibly during the preparation process (\textit{Figure \ref{2}}). The shape of the round particles is not perfect, and suggests that some round particles are pinching in to a common point possibly of nucleation (\textit{Figure \ref{3.80}}). 
+
 
 \begin{figure}[H]
 \centering
