@@ -11,7 +11,8 @@
 \usepackage{amsmath}
 \usepackage{textalpha}
 \usepackage{comment}
-
+\usepackage{grffile}
+\usepackage{tocloft}
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -128,10 +129,11 @@
 
 %\include{Dedication/dedication}
 %\include{Declaration/declaration}
-%\include{Acknowledgement/acknowledgement}
-%\include{Abstract/abstract}
+\include{Acknowledgement/acknowledgement}
+\include{Abstract/abstract}
 
 % *********************** Adding TOC and List of Figures ***********************
+ \setlength{\cftfignumwidth}{4em}
 
 \tableofcontents
 
@@ -140,18 +142,18 @@
 \listoftables
 
 % \printnomenclature[space] space can be set as 2em between symbol and description
-%\printnomenclature[3em]
+%\printnomenclature[4em]
 
 \printnomenclature
 
 % ******************************** Main Matter *********************************
 \mainmatter
 
-%\include{Chapter1/chapter1}
-%\include{Chapter2/chapter2}
+\include{Chapter1/chapter1}
+\include{Chapter2/chapter2}
 \include{Chapter3/chapter3}
-%\include{Chapter4/chapter4}
-%\include{Chapter5/chapter5}
+\include{Chapter4/chapter4}
+\include{Chapter5/chapter5}
 %\include{Chapter6/chapter6}
 %\include{Chapter7/chapter7}
 
@@ -189,7 +191,7 @@
 
 \begin{appendices} % Using appendices environment for more functunality
 
-%\include{Appendix1/appendix1}
+\include{Appendix1/appendix1}
 %\include{Appendix2/appendix2}
 
 \end{appendices}
